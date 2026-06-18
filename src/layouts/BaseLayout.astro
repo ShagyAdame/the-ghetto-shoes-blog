@@ -106,15 +106,14 @@ const ogImage = image
 
       .side-group {
         position: absolute;
-        top: 0;
+        top: 50%;
+        transform: translateY(-50%);
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
-        gap: var(--space-md);
+        gap: var(--space-sm);
         opacity: 0.35;
-        height: 100vh;
-        padding-top: var(--space-md);
+        max-height: 80vh;
       }
 
       .side-left {
@@ -128,7 +127,7 @@ const ogImage = image
       .side-vector {
         display: block;
         width: auto;
-        max-height: 60vh;
+        max-height: 50vh;
         height: auto;
       }
 
@@ -142,17 +141,17 @@ const ogImage = image
 
       @media (max-width: 1024px) {
         .side-vector {
-          max-height: 40vh;
+          max-height: 35vh;
         }
 
         .side-logo {
-          max-height: 15vh;
+          max-height: 18vh;
         }
       }
 
       @media (max-width: 639px) {
         .side-vector {
-          max-height: 30vh;
+          max-height: 25vh;
         }
 
         .side-logo {
