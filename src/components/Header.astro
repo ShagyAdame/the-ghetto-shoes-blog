@@ -18,7 +18,7 @@ function isActive(href: string): boolean {
 <header class="site-header">
   <div class="header-container">
     <a href={base} class="logo" aria-label="The Ghetto Shoe's — Inicio">
-      <span class="logo-text" data-text="The Ghetto Shoe's">The Ghetto Shoe's</span>
+      <span class="logo-text">The Ghetto Shoe's</span>
     </a>
 
     <button class="hamburger" aria-label="Abrir menú de navegación" aria-expanded="false">
@@ -92,52 +92,25 @@ function isActive(href: string): boolean {
   }
 
   .logo-text {
-    position: relative;
-    display: inline-block;
-    font-family: 'Platinum Sign', 'Boston Caps', cursive;
+    font-family: var(--font-heading);
     font-size: clamp(1.35rem, 3.5vw, 2rem);
     color: var(--color-accent);
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
     line-height: 1.1;
     white-space: nowrap;
-    z-index: 0;
-  }
-
-  /* Under layer: dark outline (via ::before) */
-  .logo-text::before {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: 'Platinum Sign Under', 'Boston Caps', cursive;
-    color: #3a0000;
-    transform: translate(2px, 2px);
-    z-index: -1;
-    pointer-events: none;
-    white-space: nowrap;
-  }
-
-  /* Over layer: inner highlight (via ::after) */
-  .logo-text::after {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: 'Platinum Sign Over', 'Boston Caps', cursive;
-    color: #ffe0a0;
-    transform: translate(-0.5px, -0.5px);
-    z-index: 1;
-    pointer-events: none;
-    white-space: nowrap;
+    text-shadow:
+      0 0 8px rgba(255, 179, 71, 0.6),
+      0 0 20px rgba(255, 179, 71, 0.3),
+      2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: color 0.2s ease, text-shadow 0.2s ease;
   }
 
   .logo:hover .logo-text {
     color: var(--color-cta);
-  }
-
-  .logo:hover .logo-text::before,
-  .logo:hover .logo-text::after {
-    opacity: 0;
+    text-shadow:
+      0 0 8px rgba(201, 95, 95, 0.6),
+      0 0 20px rgba(201, 95, 95, 0.3),
+      2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
   /* ── Navigation ── */
