@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import PostLayout from '../../layouts/PostLayout.astro';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('posts', ({ data }) => data.published !== false);
+  const sortedPosts = allPosts.sort(
+    (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+  );
+
+  return sortedPosts.map((post, index) => {
+    const prevPost = index < sortedPosts.length - 1 ? sortedPosts[index + 1] : null;
+    const nextPost = index > 0 ? sortedPosts[index - 1] : null;
+
+    return {
+      params: { slug: post.id },
+      props: { post, prevPost, nextPost },
+    };
+  });
+}
+
+const { post, prevPost, nextPost } = Astro.props;
+---
+
+<PostLayout post={post} prevPost={prevPost} nextPost={nextPost} />
+
+<!-- 404 handling for invalid slugs is done via redirect/fallback in Astro config -->

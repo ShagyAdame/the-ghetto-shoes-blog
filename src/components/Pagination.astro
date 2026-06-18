@@ -1,0 +1,104 @@
+---
+export interface Props {
+  page: {
+    url: {
+      prev?: string;
+      next?: string;
+    };
+    currentPage: number;
+    lastPage: number;
+  };
+}
+
+const { page } = Astro.props;
+const { url, currentPage, lastPage } = page;
+---
+
+<nav class="pagination" aria-label="Paginación">
+  <div class="pagination-inner">
+    {url.prev ? (
+      <a href={url.prev} class="pagination-link pagination-prev">
+        ← Anterior
+      </a>
+    ) : (
+      <span class="pagination-link pagination-disabled">← Anterior</span>
+    )}
+
+    <span class="pagination-info">
+      Página {currentPage} de {lastPage}
+    </span>
+
+    {url.next ? (
+      <a href={url.next} class="pagination-link pagination-next">
+        Siguiente →
+      </a>
+    ) : (
+      <span class="pagination-link pagination-disabled">Siguiente →</span>
+    )}
+  </div>
+</nav>
+
+<style>
+  .pagination {
+    margin: var(--space-2xl) 0;
+  }
+
+  .pagination-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-lg);
+  }
+
+  .pagination-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: var(--space-sm) var(--space-md);
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border: 2px solid var(--color-secondary);
+    border-radius: var(--radius-sm);
+    transition: all 0.2s ease;
+    text-decoration: none;
+  }
+
+  .pagination-link:hover {
+    background-color: var(--color-cta);
+    color: var(--color-text-light);
+    border-color: var(--color-cta);
+  }
+
+  .pagination-disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  .pagination-info {
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+    opacity: 0.7;
+    white-space: nowrap;
+    padding: var(--space-sm) var(--space-md);
+    border-bottom: 2px dashed var(--color-secondary);
+  }
+
+  @media (max-width: 480px) {
+    .pagination-inner {
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+    }
+
+    .pagination-info {
+      order: -1;
+      width: 100%;
+      text-align: center;
+    }
+  }
+</style>

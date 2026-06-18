@@ -1,0 +1,205 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HeroPost from '../components/HeroPost.astro';
+import PostGrid from '../components/PostGrid.astro';
+
+const allPosts = await getCollection('posts', ({ data }) => data.published !== false);
+const sortedPosts = allPosts.sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const featuredPost = sortedPosts.length > 0 ? sortedPosts[0] : null;
+const recentPosts = sortedPosts.slice(1, 7); // Next 6 posts
+---
+
+<BaseLayout title="Inicio" description="Blog oficial de The Ghetto Shoe's — lanzamientos, cultura urbana y estilo.">
+  <!-- Hero Section -->
+  <section class="home-hero">
+    <div class="container">
+      {featuredPost ? (
+        <HeroPost post={featuredPost} />
+      ) : (
+        <div class="home-hero-empty">
+          <h1>The Ghetto Shoe's</h1>
+          <p class="hero-subtitle">
+            Lanzamientos, cultura urbana y estilo desde el corazón del barrio.
+          </p>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- Recent Posts Grid -->
+  {recentPosts.length > 0 && (
+    <section class="container">
+      <PostGrid
+        posts={recentPosts}
+        title="Posts recientes"
+      />
+    </section>
+  )}
+
+  <!-- Brand Section -->
+  <section class="brand-section container">
+    <div class="brand-card">
+      <h2>¿Qué es The Ghetto Shoe's?</h2>
+      <p>
+        The Ghetto Shoe's no es solo una marca de zapatillas — es una forma de ver la calle,
+        de caminarla con estilo y de contar las historias que cada par de zapatos lleva consigo.
+        Acá vas a encontrar lanzamientos, reseñas, cultura urbana y todo lo que mueve el asfalto.
+      </p>
+      <a href="/about" class="brand-link">Conocé más →</a>
+    </div>
+  </section>
+
+  <!-- YouTube CTA -->
+  <section class="cta-section container">
+    <div class="cta-card">
+      <h2>Síguenos en YouTube</h2>
+      <p>
+        Reviews, unboxings y la mejor cobertura de lanzamientos exclusivos.
+        Suscribite y no te pierdas ningún drop.
+      </p>
+      <a
+        href="https://www.youtube.com/@TheGuettoShoes"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="cta-button"
+      >
+        YouTube →
+      </a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* ── Hero ── */
+
+  .home-hero {
+    padding: var(--space-2xl) 0 0 0;
+  }
+
+  .home-hero-empty {
+    text-align: center;
+    padding: var(--space-3xl) 0;
+  }
+
+  .home-hero-empty h1 {
+    font-size: clamp(2.5rem, 8vw, 5rem);
+  }
+
+  .hero-subtitle {
+    font-size: clamp(1.125rem, 2vw, 1.5rem);
+    color: var(--color-text-light);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* ── Brand Section ── */
+
+  .brand-section {
+    margin: var(--space-2xl) auto;
+  }
+
+  .brand-card {
+    background-color: var(--color-surface);
+    color: var(--color-text-dark);
+    border: 3px solid var(--color-secondary);
+    border-radius: var(--radius-md);
+    padding: var(--space-xl) var(--space-lg);
+    text-align: center;
+  }
+
+  .brand-card h2 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    margin-bottom: var(--space-md);
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+  }
+
+  .brand-card p {
+    color: var(--color-text-dark);
+    max-width: 600px;
+    margin: 0 auto var(--space-lg);
+    font-size: 1.0625rem;
+    line-height: 1.7;
+  }
+
+  .brand-link {
+    display: inline-block;
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--color-cta);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: var(--space-sm) var(--space-lg);
+    border: 2px solid var(--color-cta);
+    border-radius: var(--radius-sm);
+    transition: all 0.2s ease;
+    text-decoration: none;
+  }
+
+  .brand-link:hover {
+    background-color: var(--color-cta);
+    color: var(--color-text-light);
+  }
+
+  /* ── CTA Section ── */
+
+  .cta-section {
+    margin: var(--space-2xl) auto var(--space-3xl);
+  }
+
+  .cta-card {
+    background: linear-gradient(
+      135deg,
+      var(--color-primary) 0%,
+      var(--color-secondary) 100%
+    );
+    border: 3px solid var(--color-cta);
+    border-radius: var(--radius-md);
+    padding: var(--space-2xl) var(--space-lg);
+    text-align: center;
+  }
+
+  .cta-card h2 {
+    font-family: var(--font-heading);
+    color: var(--color-accent);
+    margin-bottom: var(--space-md);
+    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  }
+
+  .cta-card p {
+    color: var(--color-text-light);
+    max-width: 500px;
+    margin: 0 auto var(--space-lg);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    opacity: 0.9;
+  }
+
+  .cta-button {
+    display: inline-block;
+    padding: var(--space-sm) var(--space-xl);
+    background-color: var(--color-cta);
+    color: var(--color-text-light);
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    border: none;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    cursor: pointer;
+  }
+
+  .cta-button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+    color: var(--color-text-light);
+  }
+</style>

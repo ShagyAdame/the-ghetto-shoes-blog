@@ -1,0 +1,209 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import TagBadge from './TagBadge.astro';
+
+export interface Props {
+  post: CollectionEntry<'posts'>;
+}
+
+const { post } = Astro.props;
+const { data } = post;
+const href = `/posts/${post.id}/`;
+---
+
+<article class="hero-post">
+  <a href={href} class="hero-post-link">
+    <div class="hero-post-image-wrapper">
+      {
+        data.image ? (
+          <img
+            src={`/images/${data.image}`}
+            alt={data.title}
+            class="hero-post-image"
+          />
+        ) : (
+          <div class="hero-post-image-placeholder">
+            <span class="placeholder-icon">👟</span>
+          </div>
+        )
+      }
+      <div class="hero-post-overlay"></div>
+    </div>
+
+    <div class="hero-post-content">
+      <time class="hero-post-date" datetime={data.date.toISOString()}>
+        {new Intl.DateTimeFormat('es-ES', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+          timeZone: 'UTC',
+        }).format(data.date)}
+      </time>
+
+      <h2 class="hero-post-title">{data.title}</h2>
+
+      {data.description && (
+        <p class="hero-post-description">{data.description}</p>
+      )}
+
+      <div class="hero-post-tags">
+        {data.tags?.map((tag) => <TagBadge tag={tag} />)}
+      </div>
+
+      <span class="hero-post-cta">Leer más →</span>
+    </div>
+  </a>
+</article>
+
+<style>
+  .hero-post {
+    position: relative;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    border: 3px solid var(--color-secondary);
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    margin-bottom: var(--space-2xl);
+    background-color: var(--color-primary);
+  }
+
+  .hero-post:hover {
+    border-color: var(--color-cta);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  }
+
+  .hero-post-link {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .hero-post-image-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 21 / 9;
+    overflow: hidden;
+  }
+
+  @media (max-width: 639px) {
+    .hero-post-image-wrapper {
+      aspect-ratio: 4 / 3;
+    }
+  }
+
+  .hero-post-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  .hero-post:hover .hero-post-image {
+    transform: scale(1.03);
+  }
+
+  .hero-post-image-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: repeating-linear-gradient(
+      45deg,
+      var(--color-primary),
+      var(--color-primary) 10px,
+      var(--color-secondary) 10px,
+      var(--color-secondary) 20px
+    );
+  }
+
+  .placeholder-icon {
+    font-size: 5rem;
+    opacity: 0.4;
+  }
+
+  .hero-post-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to top,
+      var(--color-primary) 0%,
+      transparent 60%
+    );
+  }
+
+  .hero-post-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: var(--space-xl) var(--space-lg);
+    z-index: 1;
+  }
+
+  @media (max-width: 639px) {
+    .hero-post-content {
+      padding: var(--space-md);
+    }
+  }
+
+  .hero-post-date {
+    display: inline-block;
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+    opacity: 0.8;
+    margin-bottom: var(--space-sm);
+  }
+
+  .hero-post-title {
+    font-family: var(--font-heading);
+    font-size: clamp(1.5rem, 4vw, 2.75rem);
+    color: var(--color-accent);
+    margin: 0 0 var(--space-sm) 0;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Clamp to 2 lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .hero-post-description {
+    font-family: var(--font-body);
+    font-size: clamp(0.875rem, 1.5vw, 1.125rem);
+    color: var(--color-text-light);
+    line-height: 1.5;
+    margin: 0 0 var(--space-md) 0;
+    max-width: 650px;
+    /* Clamp to 2 lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .hero-post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-bottom: var(--space-sm);
+  }
+
+  .hero-post-cta {
+    display: inline-block;
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--color-cta);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: color 0.2s ease;
+  }
+
+  .hero-post:hover .hero-post-cta {
+    color: var(--color-accent);
+  }
+</style>

@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostGrid from '../../components/PostGrid.astro';
+import Pagination from '../../components/Pagination.astro';
+
+export async function getStaticPaths({ paginate }) {
+  const allPosts = await getCollection('posts', ({ data }) => data.published !== false);
+  const sortedPosts = allPosts.sort(
+    (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+  );
+  return paginate(sortedPosts, { pageSize: 9 });
+}
+
+const { page } = Astro.props;
+const pageTitle = page.currentPage > 1
+  ? `Todos los Posts — Página ${page.currentPage}`
+  : 'Todos los Posts';
+---
+
+<BaseLayout title={pageTitle} description="Archivo completo de todos los posts publicados en The Ghetto Shoe's.">
+  <section class="archive-page">
+    <h1>Todos los Posts</h1>
+
+    <PostGrid posts={page.data} />
+
+    {page.lastPage > 1 && <Pagination page={page} />}
+  </section>
+</BaseLayout>
+
+<style>
+  .archive-page {
+    padding: var(--space-2xl) 0;
+  }
+
+  .archive-page h1 {
+    font-family: var(--font-heading);
+    font-size: clamp(1.75rem, 4vw, 3rem);
+    color: var(--color-accent);
+    margin-bottom: var(--space-xl);
+    border-bottom: 3px dashed var(--color-secondary);
+    padding-bottom: var(--space-md);
+  }
+</style>

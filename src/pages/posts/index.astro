@@ -1,0 +1,79 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostGrid from '../../components/PostGrid.astro';
+import Pagination from '../../components/Pagination.astro';
+
+const allPosts = await getCollection('posts', ({ data }) => data.published !== false);
+const sortedPosts = allPosts.sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const pageSize = 9;
+const totalPages = Math.max(1, Math.ceil(sortedPosts.length / pageSize));
+const page1Posts = sortedPosts.slice(0, pageSize);
+
+const page = {
+  data: page1Posts,
+  currentPage: 1,
+  lastPage: totalPages,
+  start: 0,
+  end: Math.min(pageSize, sortedPosts.length),
+  total: sortedPosts.length,
+  size: pageSize,
+  url: {
+    current: '/posts/',
+    prev: undefined,
+    next: totalPages > 1 ? '/posts/2/' : undefined,
+    first: undefined,
+    last: totalPages > 1 ? `/posts/${totalPages}/` : undefined,
+  },
+};
+---
+
+<BaseLayout title="Todos los Posts" description="Archivo completo de todos los posts publicados en The Ghetto Shoe's.">
+  <section class="archive-page">
+    <h1>Todos los Posts</h1>
+
+    {sortedPosts.length > 0 ? (
+      <>
+        <PostGrid posts={page.data} />
+        {totalPages > 1 && <Pagination page={page} />}
+      </>
+    ) : (
+      <div class="archive-empty">
+        <p>Aún no hay posts publicados. ¡Vuelve pronto!</p>
+      </div>
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .archive-page {
+    padding: var(--space-2xl) 0;
+  }
+
+  .archive-page h1 {
+    font-family: var(--font-heading);
+    font-size: clamp(1.75rem, 4vw, 3rem);
+    color: var(--color-accent);
+    margin-bottom: var(--space-xl);
+    border-bottom: 3px dashed var(--color-secondary);
+    padding-bottom: var(--space-md);
+  }
+
+  .archive-empty {
+    background-color: var(--color-surface);
+    color: var(--color-text-dark);
+    padding: var(--space-3xl) var(--space-lg);
+    text-align: center;
+    border: 3px dashed var(--color-secondary);
+    border-radius: var(--radius-md);
+  }
+
+  .archive-empty p {
+    font-size: 1.125rem;
+    color: var(--color-text-dark);
+    margin: 0;
+  }
+</style>

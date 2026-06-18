@@ -1,0 +1,82 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import PostCard from './PostCard.astro';
+
+export interface Props {
+  posts: CollectionEntry<'posts'>[];
+  title?: string;
+  columns?: 2 | 3;
+}
+
+const { posts, title, columns = 3 } = Astro.props;
+const gridCols = columns === 2 ? 'grid-cols-2' : 'grid-cols-3';
+---
+
+<section class="post-grid">
+  {title && <h2 class="post-grid-title">{title}</h2>}
+
+  {posts.length > 0 ? (
+    <div class:list={['post-grid-container', gridCols]}>
+      {posts.map((post, i) => (
+        <PostCard post={post} index={i} />
+      ))}
+    </div>
+  ) : (
+    <div class="post-grid-empty">
+      <p>Aún no hay posts publicados. ¡Vuelve pronto!</p>
+    </div>
+  )}
+</section>
+
+<style>
+  .post-grid {
+    margin: var(--space-2xl) 0;
+  }
+
+  .post-grid-title {
+    font-family: var(--font-heading);
+    color: var(--color-accent);
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    margin-bottom: var(--space-lg);
+    letter-spacing: 0.03em;
+    border-bottom: 3px dashed var(--color-secondary);
+    padding-bottom: var(--space-sm);
+  }
+
+  .post-grid-container {
+    display: grid;
+    gap: var(--space-lg);
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 640px) {
+    .post-grid-container.grid-cols-2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .post-grid-container.grid-cols-3 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .post-grid-container.grid-cols-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .post-grid-empty {
+    background-color: var(--color-surface);
+    color: var(--color-text-dark);
+    padding: var(--space-3xl) var(--space-lg);
+    text-align: center;
+    border: 3px dashed var(--color-secondary);
+    border-radius: var(--radius-md);
+  }
+
+  .post-grid-empty p {
+    font-size: 1.125rem;
+    color: var(--color-text-dark);
+    margin: 0;
+  }
+</style>

@@ -1,0 +1,54 @@
+---
+export interface Props {
+  lastSync?: string;
+}
+
+const { lastSync } = Astro.props;
+---
+
+<div class="sync-status">
+  {lastSync ? (
+    <>
+      <span class="sync-icon">🔄</span>
+      <span class="sync-text">
+        Última sincronización: <time datetime={lastSync}>{lastSync}</time>
+      </span>
+    </>
+  ) : (
+    <>
+      <span class="sync-icon">⚠️</span>
+      <span class="sync-text">Contenido no sincronizado. Ejecuta <code>npm run sync</code></span>
+    </>
+  )}
+</div>
+
+<style>
+  .sync-status {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-sm) var(--space-md);
+    background-color: var(--color-surface);
+    border: 2px dashed var(--color-secondary);
+    border-radius: var(--radius-md);
+    font-size: 0.8rem;
+    color: var(--color-text-dark);
+  }
+
+  .sync-icon {
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  .sync-text {
+    font-family: var(--font-body);
+  }
+
+  .sync-text code {
+    background-color: var(--color-primary);
+    color: var(--color-accent);
+    padding: 0.1rem 0.35rem;
+    border-radius: 3px;
+    font-size: 0.75rem;
+  }
+</style>

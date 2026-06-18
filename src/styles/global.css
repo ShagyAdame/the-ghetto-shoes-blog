@@ -1,0 +1,203 @@
+/* ============================================================
+   Global Styles — The Ghetto Shoe's Blog
+   Retro/vaporwave aesthetic with brand color palette
+   ============================================================ */
+
+/* ── Google Fonts (loaded via <link> in BaseLayout) ── */
+/* Luckiest Guy (headings) + Inter (body) */
+
+/* ── CSS Custom Properties ── */
+:root {
+  /* Brand palette */
+  --color-primary: #590111;
+  --color-accent: #FFB347;
+  --color-secondary: #7A4D26;
+  --color-surface: #E7A594;
+  --color-cta: #C95F5F;
+
+  /* Text colors */
+  --color-text-light: #f5f0e8;
+  --color-text-dark: #1a1a1a;
+
+  /* Typography */
+  --font-heading: 'Luckiest Guy', 'Bebas Neue', 'Arial Black', cursive;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+
+  /* Max content width */
+  --content-max: 1200px;
+}
+
+/* ── Base Reset ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text-light);
+  background-color: var(--color-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--color-cta);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-cta);
+  filter: brightness(1.25);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/* ── Typography ── */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-accent);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: var(--space-lg);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  margin-bottom: var(--space-md);
+}
+
+h3 {
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  margin-bottom: var(--space-sm);
+}
+
+p {
+  margin-bottom: var(--space-md);
+  color: var(--color-text-light);
+}
+
+/* ── Utility Classes ── */
+
+.container {
+  width: 100%;
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ── Retro Decorative Elements ── */
+
+.chunky-border {
+  border: 3px solid var(--color-secondary);
+  border-radius: var(--radius-md);
+}
+
+.dashed-border {
+  border: 2px dashed var(--color-secondary);
+}
+
+/* ── Responsive Grid ── */
+
+.grid {
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ── Page Layout ── */
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-wrapper main {
+  flex: 1;
+}
+
+/* ── Section Backgrounds ── */
+
+.section-surface {
+  background-color: var(--color-surface);
+  color: var(--color-text-dark);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+}
+
+.section-surface h1,
+.section-surface h2,
+.section-surface h3 {
+  color: var(--color-primary);
+}
+
+.section-surface p {
+  color: var(--color-text-dark);
+}

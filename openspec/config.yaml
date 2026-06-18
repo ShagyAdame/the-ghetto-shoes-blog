@@ -1,0 +1,43 @@
+# openspec/config.yaml
+schema: spec-driven
+project: the-ghetto-shoes-blog
+created: 2026-06-15
+persistence: hybrid
+
+context: |
+  Project: The Ghetto Shoes Blog
+  Description: Retro-themed static blog built with Astro
+  Stack: Astro (static site generation, SSG mode)
+  Architecture: Static site — content from Obsidian vault, built with Astro, deployed as static HTML
+  Content source: D:\Cerebro Shagy\Programación Luis\The Ghetto Shoe´s\ (Obsidian vault)
+  Content language: Spanish (Rioplatense)
+  Design: Retro aesthetic, sneaker/blog culture theme
+  Testing: None available yet (project is pre-scaffold, no package.json or framework installed)
+  Strict TDD: false (no test runner available; Astro static sites typically use Vitest, but no framework installed yet)
+  Status: Greenfield — project directory exists but is empty
+  SDD session preflight: interactive / both / ask-always / 400-line review budget
+
+rules:
+  proposal:
+    - Include rollback plan for risky changes
+    - Keep proposals focused on single, coherent changes
+  specs:
+    - Use Given/When/Then for scenarios
+    - Use RFC 2119 keywords (MUST, SHALL, SHOULD, MAY)
+    - Write specs in English (artifacts follow SDD contract)
+  design:
+    - Include component/route architecture for complex flows
+    - Document Astro-specific decisions (islands, partial hydration, content collections)
+  tasks:
+    - Group by phase, use hierarchical numbering
+    - Keep tasks completable in one session
+  apply:
+    - Follow Astro project conventions and community style
+    tdd: false
+    test_command: ""
+  verify:
+    test_command: ""
+    build_command: "astro build"
+    coverage_threshold: 0
+  archive:
+    - Warn before merging destructive deltas

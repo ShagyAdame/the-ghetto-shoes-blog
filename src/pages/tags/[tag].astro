@@ -1,0 +1,90 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostGrid from '../../components/PostGrid.astro';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('posts', ({ data }) => data.published !== false);
+
+  // Collect all unique tags
+  const tagsSet = new Set<string>();
+  for (const post of allPosts) {
+    for (const tag of post.data.tags || []) {
+      tagsSet.add(tag);
+    }
+  }
+
+  const sortedPosts = allPosts.sort(
+    (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+  );
+
+  return Array.from(tagsSet).map((tag) => {
+    const matchingPosts = sortedPosts.filter(
+      (post) => post.data.tags?.includes(tag)
+    );
+
+    return {
+      params: { tag },
+      props: { tag, posts: matchingPosts },
+    };
+  });
+}
+
+const { tag, posts } = Astro.props;
+const pageTitle = `Posts sobre ${tag}`;
+---
+
+<BaseLayout title={pageTitle} description={`Todos los posts etiquetados con "${tag}" en The Ghetto Shoe's.`}>
+  <section class="tag-page">
+    <h1 class="tag-page-title">
+      Posts sobre <span class="tag-highlight">{tag}</span>
+    </h1>
+
+    {posts.length > 0 ? (
+      <PostGrid posts={posts} />
+    ) : (
+      <div class="tag-empty">
+        <p>No hay posts con esta etiqueta.</p>
+      </div>
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .tag-page {
+    padding: var(--space-2xl) 0;
+  }
+
+  .tag-page-title {
+    font-family: var(--font-heading);
+    font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+    color: var(--color-accent);
+    margin-bottom: var(--space-xl);
+    border-bottom: 3px dashed var(--color-secondary);
+    padding-bottom: var(--space-md);
+  }
+
+  .tag-highlight {
+    background-color: var(--color-cta);
+    color: var(--color-surface);
+    padding: 0.1rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.85em;
+    display: inline-block;
+  }
+
+  .tag-empty {
+    background-color: var(--color-surface);
+    color: var(--color-text-dark);
+    padding: var(--space-3xl) var(--space-lg);
+    text-align: center;
+    border: 3px dashed var(--color-secondary);
+    border-radius: var(--radius-md);
+  }
+
+  .tag-empty p {
+    font-size: 1.125rem;
+    color: var(--color-text-dark);
+    margin: 0;
+  }
+</style>

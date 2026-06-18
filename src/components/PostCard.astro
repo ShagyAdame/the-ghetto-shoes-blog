@@ -1,0 +1,171 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import TagBadge from './TagBadge.astro';
+
+export interface Props {
+  post: CollectionEntry<'posts'>;
+  index?: number;
+}
+
+const { post, index } = Astro.props;
+const { data } = post;
+const href = `/posts/${post.id}/`;
+---
+
+<article class="post-card" style={`--card-index: ${index ?? 0}`}>
+  <a href={href} class="post-card-link">
+    <div class="post-card-image-wrapper">
+      {
+        data.image ? (
+          <img
+            src={`/images/${data.image}`}
+            alt={data.title}
+            class="post-card-image"
+            loading="lazy"
+            decoding="async"
+          />
+        ) : (
+          <div class="post-card-image-placeholder">
+            <span class="placeholder-icon">👟</span>
+          </div>
+        )
+      }
+    </div>
+
+    <div class="post-card-body">
+      <time class="post-card-date" datetime={data.date.toISOString()}>
+        {new Intl.DateTimeFormat('es-ES', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+          timeZone: 'UTC',
+        }).format(data.date)}
+      </time>
+
+      <h3 class="post-card-title">{data.title}</h3>
+
+      {data.description && (
+        <p class="post-card-description">{data.description}</p>
+      )}
+
+      <div class="post-card-tags">
+        {data.tags?.map((tag) => <TagBadge tag={tag} />)}
+      </div>
+    </div>
+  </a>
+</article>
+
+<style>
+  .post-card {
+    background-color: var(--color-surface);
+    border: 3px solid var(--color-secondary);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--color-cta);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  }
+
+  .post-card-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .post-card-image-wrapper {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background-color: var(--color-primary);
+  }
+
+  .post-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .post-card:hover .post-card-image {
+    transform: scale(1.05);
+  }
+
+  .post-card-image-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: repeating-linear-gradient(
+      45deg,
+      var(--color-primary),
+      var(--color-primary) 10px,
+      var(--color-secondary) 10px,
+      var(--color-secondary) 20px
+    );
+  }
+
+  .placeholder-icon {
+    font-size: 3rem;
+    opacity: 0.6;
+  }
+
+  .post-card-body {
+    padding: var(--space-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    flex: 1;
+  }
+
+  .post-card-date {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: var(--color-text-dark);
+    opacity: 0.7;
+  }
+
+  .post-card-title {
+    font-family: var(--font-heading);
+    font-size: clamp(1rem, 2vw, 1.35rem);
+    color: var(--color-accent);
+    margin: 0;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    /* Clamp to 2 lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .post-card-description {
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    color: var(--color-text-dark);
+    line-height: 1.5;
+    margin: 0;
+    flex: 1;
+    /* Clamp to 3 lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .post-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: auto;
+    padding-top: var(--space-sm);
+  }
+</style>

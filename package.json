@@ -1,0 +1,24 @@
+{
+  "name": "the-ghetto-shoes-blog",
+  "version": "1.0.0",
+  "description": "Retro-themed static blog for The Ghetto Shoe's — lanzamientos, cultura urbana y estilo.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-with-watch.mjs",
+    "build": "npm run sync && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "sync": "node scripts/sync-vault.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^6.0.3",
+    "@astrojs/rss": "^4.0.18",
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^6.4.7"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.9"
+  }
+}

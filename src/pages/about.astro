@@ -1,0 +1,128 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pages = await getCollection('pages');
+const aboutPage = pages.find((p) => p.id === 'about');
+
+if (!aboutPage) {
+  throw new Error('About page not found in content collection. Run `npm run sync` first.');
+}
+
+const { Content } = await render(aboutPage);
+---
+
+<BaseLayout title="¿Qué es The Ghetto Shoe's?" description="Conocé la historia y el propósito de The Ghetto Shoe's — tienda de contenido retro.">
+  <section class="about-page">
+    <div class="about-content">
+      <Content />
+    </div>
+
+    <div class="about-cta">
+      <h2>Seguí el contenido</h2>
+      <p>
+            No te pierdas ningún lanzamiento. Seguinos en YouTube y todas las redes para estar al tanto.
+      </p>
+      <a
+        href="https://www.youtube.com/@TheGuettoShoes"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="about-cta-link"
+      >
+        YouTube → 
+      </a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .about-page {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: var(--space-2xl) 0;
+  }
+
+  .about-content {
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    line-height: 1.8;
+    color: var(--color-text-light);
+  }
+
+  .about-content h1 {
+    font-family: var(--font-heading);
+    font-size: clamp(1.75rem, 4vw, 3rem);
+    color: var(--color-accent);
+    margin-bottom: var(--space-lg);
+  }
+
+  .about-content h6 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--color-text-light);
+    opacity: 0.8;
+    margin-bottom: var(--space-lg);
+    line-height: 1.6;
+  }
+
+  .about-content p {
+    margin-bottom: var(--space-md);
+    color: var(--color-text-light);
+  }
+
+  .about-content a {
+    color: var(--color-cta);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: color 0.2s ease;
+  }
+
+  .about-content a:hover {
+    color: var(--color-accent);
+  }
+
+  .about-content em {
+    color: var(--color-accent);
+  }
+
+  .about-cta {
+    margin-top: var(--space-3xl);
+    padding: var(--space-xl);
+    background-color: var(--color-surface);
+    border: 3px dashed var(--color-secondary);
+    border-radius: var(--radius-md);
+    text-align: center;
+  }
+
+  .about-cta h2 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    margin-bottom: var(--space-sm);
+  }
+
+  .about-cta p {
+    color: var(--color-text-dark);
+    margin-bottom: var(--space-lg);
+  }
+
+  .about-cta-link {
+    display: inline-block;
+    padding: var(--space-sm) var(--space-xl);
+    background-color: var(--color-cta);
+    color: var(--color-text-light);
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+  }
+
+  .about-cta-link:hover {
+    opacity: 0.85;
+    color: var(--color-text-light);
+  }
+</style>

@@ -1,0 +1,50 @@
+---
+export interface Props {
+  tag: string;
+  active?: boolean;
+}
+
+const { tag, active = false } = Astro.props;
+const href = `/tags/${encodeURIComponent(tag)}`;
+---
+
+<a href={href} class:list={['tag-badge', { 'tag-badge--active': active }]}>
+  {tag}
+</a>
+
+<style>
+  .tag-badge {
+    display: inline-block;
+    padding: 0.2rem 0.75rem;
+    background-color: var(--color-cta);
+    color: var(--color-surface);
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-radius: 999px;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .tag-badge:hover {
+    background-color: var(--color-surface);
+    color: var(--color-cta);
+    border-color: var(--color-cta);
+  }
+
+  .tag-badge--active {
+    background-color: var(--color-primary);
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+  }
+
+  .tag-badge--active:hover {
+    background-color: var(--color-accent);
+    color: var(--color-primary);
+    border-color: var(--color-accent);
+  }
+</style>
