@@ -13,6 +13,9 @@ npm-debug.log*
 # environment variables
 .env
 
+# source font archives (fonts are copied to public/fonts/)
+Textos tipografias/
+
 # macOS-specific files
 .DS_Store
 

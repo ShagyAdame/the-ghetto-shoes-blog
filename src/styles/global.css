@@ -20,8 +20,9 @@
   --color-text-dark: #1a1a1a;
 
   /* Typography */
-  --font-heading: 'Luckiest Guy', 'Bebas Neue', 'Arial Black', cursive;
+  --font-heading: 'Boston Caps', 'Arial Black', impact, sans-serif;
   --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Platinum Sign', 'Boston Caps', cursive;
 
   /* Spacing */
   --space-xs: 0.25rem;

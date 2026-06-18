@@ -42,15 +42,58 @@ const ogImage = image
     <!-- Canonical -->
     <link rel="canonical" href={canonicalUrl} />
 
-    <!-- Google Fonts: Luckiest Guy (headings) + Inter (body) -->
+    <!-- Google Fonts: Inter for body text -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Luckiest+Guy&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
     <title>{pageTitle}</title>
+
+    <style is:global>
+      /* ── Local Fonts ── */
+      @font-face {
+        font-family: 'Boston Caps';
+        src: url('/fonts/BOSTON CAPS.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Full Pack 2025';
+        src: url('/fonts/full Pack 2025.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Platinum Sign';
+        src: url('/fonts/Platinum Sign.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Platinum Sign Over';
+        src: url('/fonts/Platinum Sign Over.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Platinum Sign Under';
+        src: url('/fonts/Platinum Sign Under.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+    </style>
   </head>
   <body>
     <div class="page-wrapper">
