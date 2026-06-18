@@ -39,6 +39,12 @@ const STATIC_PAGES = [
   { name: 'metas', vaultFile: path.join(VAULT_PATH, 'Matriz de lo que se desea conseguir.md'), destFile: path.join(PAGES_DEST, 'metas.md') },
 ];
 
+// Image URL prefix for GitHub Pages subdirectory deployment.
+// Set IMAGE_BASE=/the-ghetto-shoes-blog in the build script for production builds.
+// Leave empty for development (images served at /images/...).
+const IMAGE_BASE = (process.env.IMAGE_BASE || '').replace(/\/?$/, '');
+const IMAGE_URL_PREFIX = IMAGE_BASE ? `${IMAGE_BASE}/images` : '/images';
+
 const IMAGE_EXTS = new Set(['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg']);
 
 const MONTHS = {
@@ -245,6 +251,7 @@ function frontmatterToString(fm) {
 /**
  * Transforms Obsidian wiki-image syntax to standard markdown.
  * `![[file.png]]` → `![](/images/normalized-file.png)`
+ * In production, `IMAGE_BASE` adds the subdirectory prefix (e.g. `/the-ghetto-shoes-blog/images/...`)
  *
  * @param {string} content - The markdown content
  * @param {Object<string,string>} imageMap - Mapping of original → normalized filenames
@@ -254,7 +261,7 @@ function transformWikiImages(content, imageMap) {
   return content.replace(/!\[\[([^\]]+\.(png|jpg|jpeg|gif|webp|svg))\]\]/gi, (_match, filename) => {
     const normalized = imageMap[filename] || null;
     if (normalized) {
-      return `![](/images/${encodeURIComponent(normalized)})`;
+      return `![](/${IMAGE_URL_PREFIX.replace(/^\//, '')}/${encodeURIComponent(normalized)})`;
     }
     // Image not found in vault — leave reference but log warning
     console.warn(`    ⚠ Image not found in vault: "${filename}" — keeping original reference`);
@@ -427,7 +434,7 @@ function getContenidoNote(postFile, imageMap) {
   body = body.replace(/!\[\[([^\]]+\.(png|jpg|jpeg|gif|webp|svg))\]\]/gi, (_match, filename) => {
     const normalized = imageMap[filename];
     if (normalized) {
-      return `![](/images/${encodeURIComponent(normalized)})`;
+      return `![](/${IMAGE_URL_PREFIX.replace(/^\//, '')}/${encodeURIComponent(normalized)})`;
     }
     return _match;
   });

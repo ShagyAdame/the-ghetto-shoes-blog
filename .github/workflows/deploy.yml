@@ -38,6 +38,7 @@ jobs:
         run: npm run build
         env:
           VAULT_PATH: ${{ secrets.VAULT_PATH }}
+          IMAGE_BASE: /the-ghetto-shoes-blog
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
