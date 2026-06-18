@@ -1,25 +1,11 @@
 ---
-/**
- * CommentSection.astro
- *
- * Giscus-based comment system powered by GitHub Discussions.
- *
- * ── SETUP ─────────────────────────────────────────────────────────────────
- * 1. Asegurate que el repo sea PÚBLICO
- * 2. Andá a Settings → General → Features → activá "Discussions"
- * 3. Andá a https://giscus.app, conectá tu repo y configurá:
- *    - Category: "Announcements" o la que prefieras
- * 4. Copiá los valores de data-repo-id, data-category-id y pegálos abajo
- * 5. Si cambiás el mapping o el theme, actualizalos acá también
- * ──────────────────────────────────────────────────────────────────────────
- */
+// Giscus comment system powered by GitHub Discussions
 
 const GISCUS_CONFIG = {
-  // ── PASO 1: Completa con tu repo ──
-  repo: 'theghettoshoes/the-ghetto-shoes-blog',
-  repoId: 'PONER_ACA_EL_REPO_ID',       // ← Obtenelo de giscus.app
-  category: 'Announcements',
-  categoryId: 'PONER_ACA_EL_CATEGORY_ID', // ← Obtenelo de giscus.app
+  repo: 'ShagyAdame/the-ghetto-shoes-blog',
+  repoId: 'R_kgDOS95BqA',
+  category: 'General',
+  categoryId: 'DIC_kwDOS95BqM4C_YZo',
 
   // ── Opcional: ajustá si querés ──
   mapping: 'pathname',
@@ -61,17 +47,6 @@ const GISCUS_CONFIG = {
     </script>
   </div>
 
-  <!-- Fallback para cuando no está configurado -->
-  {GISCUS_CONFIG.repoId === 'PONER_ACA_EL_REPO_ID' && (
-    <div class="comments-setup-notice">
-      <p>
-        ⚡ Los comentarios están desactivados por ahora.
-        Una vez que configures Giscus en <code>giscus.app</code> y pegues los IDs
-        en <code>src/components/CommentSection.astro</code>, los comentarios aparecerán
-        automáticamente en cada post.
-      </p>
-    </div>
-  )}
 </section>
 
 <style>
@@ -100,21 +75,5 @@ const GISCUS_CONFIG = {
     min-height: 400px;
   }
 
-  .comments-setup-notice {
-    background-color: var(--color-surface);
-    border: 2px solid var(--color-secondary);
-    border-radius: var(--radius-md);
-    padding: var(--space-lg);
-    color: var(--color-text-dark);
-    font-family: var(--font-body);
-    font-size: 0.95rem;
-    text-align: center;
-  }
 
-  .comments-setup-notice code {
-    background-color: rgba(0, 0, 0, 0.1);
-    padding: 0.15rem 0.4rem;
-    border-radius: 4px;
-    font-size: 0.85rem;
-  }
 </style>

@@ -4,6 +4,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://theghettoshoes.github.io',
+  site: 'https://shagyadame.github.io/the-ghetto-shoes-blog',
   integrations: [mdx(), sitemap()],
 });
