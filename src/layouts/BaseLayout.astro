@@ -19,9 +19,7 @@ const {
 
 const siteUrl = 'https://shagyadame.github.io/the-ghetto-shoes-blog';
 const pageTitle = `${title} | The Ghetto Shoe's`;
-const canonicalUrl = Astro.url.pathname
-  ? `${siteUrl}${Astro.url.pathname}`
-  : siteUrl;
+const canonicalUrl = Astro.url.href;
 const ogImage = image
   ? `${siteUrl}${image.startsWith('/') ? image : `/images/${image}`}`
   : undefined;
@@ -32,6 +30,7 @@ const ogImage = image
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/the-ghetto-shoes-blog/" />
     <meta name="description" content={description} />
 
     <!-- Open Graph -->
