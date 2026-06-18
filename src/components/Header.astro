@@ -77,6 +77,7 @@ function isActive(href: string): boolean {
 </script>
 
 <style>
+  /* ── Site Header ── */
   .site-header {
     background-color: var(--color-primary);
     border-bottom: 3px solid var(--color-secondary);
@@ -86,6 +87,7 @@ function isActive(href: string): boolean {
     z-index: 100;
   }
 
+  /* ── Header Container ── */
   .header-container {
     max-width: var(--content-max);
     margin: 0 auto;
@@ -93,12 +95,15 @@ function isActive(href: string): boolean {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
   }
 
+  /* ── Left side: logo text + image ── */
   .header-left {
     display: flex;
     align-items: center;
     gap: var(--space-md);
+    flex-shrink: 0;
   }
 
   .logo {
@@ -114,6 +119,7 @@ function isActive(href: string): boolean {
     object-fit: contain;
     filter: drop-shadow(0 0 8px rgba(255, 179, 71, 0.4));
     transition: filter 0.2s ease;
+    flex-shrink: 0;
   }
 
   .header-logo:hover {
@@ -142,7 +148,7 @@ function isActive(href: string): boolean {
       1px 1px 3px rgba(0, 0, 0, 0.4);
   }
 
-  /* ── Navigation ── */
+  /* ── Navigation (desktop) ── */
 
   .nav-list {
     display: flex;
@@ -190,7 +196,7 @@ function isActive(href: string): boolean {
     background-color: var(--color-accent);
   }
 
-  /* ── Hamburger (mobile) ── */
+  /* ── Hamburger (mobile only) ── */
 
   .hamburger {
     display: none;
@@ -200,6 +206,8 @@ function isActive(href: string): boolean {
     padding: var(--space-sm);
     flex-direction: column;
     gap: 4px;
+    position: relative;
+    z-index: 20;
   }
 
   .hamburger-line {
@@ -223,13 +231,57 @@ function isActive(href: string): boolean {
     transform: translateY(-7px) rotate(-45deg);
   }
 
-  /* ── Responsive ── */
+  /* ── Responsive: tablets ── */
+
+  @media (max-width: 900px) {
+    .header-logo {
+      width: 72px;
+    }
+  }
+
+  /* ── Responsive: mobile ── */
 
   @media (max-width: 639px) {
-    .hamburger {
-      display: flex;
+    .site-header {
+      padding: var(--space-xs) 0;
     }
 
+    .header-container {
+      padding: 0 var(--space-sm);
+      /* keep flex + space-between from base */
+    }
+
+    /* Hide title text on mobile */
+    .logo-text {
+      display: none;
+    }
+
+    /* Hide the empty anchor wrapper on mobile */
+    .logo {
+      display: none;
+    }
+
+    /* Show logo image smaller */
+    .header-logo {
+      display: block;
+      width: 36px;
+      filter: drop-shadow(0 0 4px rgba(255, 179, 71, 0.3));
+    }
+
+    /* Hamburger always clickable */
+    .hamburger {
+      display: flex;
+      padding: 16px;
+      margin: 0;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+      min-width: 52px;
+      min-height: 44px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Mobile dropdown nav */
     .nav {
       display: none;
       position: absolute;
@@ -238,6 +290,7 @@ function isActive(href: string): boolean {
       width: 100%;
       background-color: var(--color-primary);
       border-bottom: 3px solid var(--color-secondary);
+      z-index: 200;
     }
 
     .nav--open {
