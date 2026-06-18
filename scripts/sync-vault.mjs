@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+﻿#!/usr/bin/env node
 
 /**
  * sync-vault.mjs
@@ -25,7 +25,7 @@ const projectRoot = path.resolve(__dirname, '..');
 
 // ── Configuration ───────────────────────────────────────────────────────────
 
-const DEFAULT_VAULT_PATH = 'D:\\Cerebro Shagy\\Programación Luis\\The Ghetto Shoe´s';
+const DEFAULT_VAULT_PATH = 'D:\\Cerebro Shagy\\Programaci\u00f3n Luis\\The Ghetto Shoe\u00b4s';
 const VAULT_PATH = process.env.VAULT_PATH || DEFAULT_VAULT_PATH;
 
 const POSTS_SOURCE   = path.join(VAULT_PATH, 'Textos del contenido para posts');
@@ -35,14 +35,30 @@ const PAGES_DEST     = path.join(projectRoot, 'src', 'content', 'pages');
 const IMAGES_DEST    = path.join(projectRoot, 'public', 'images');
 
 const STATIC_PAGES = [
-  { name: 'about', vaultFile: path.join(VAULT_PATH, '¿Que es The Ghetto Shoe´s.md'),   destFile: path.join(PAGES_DEST, 'about.md') },
+  { name: 'about', vaultFile: path.join(VAULT_PATH, '\u00bfQue es The Ghetto Shoe\u00b4s.md'),   destFile: path.join(PAGES_DEST, 'about.md') },
   { name: 'metas', vaultFile: path.join(VAULT_PATH, 'Matriz de lo que se desea conseguir.md'), destFile: path.join(PAGES_DEST, 'metas.md') },
 ];
 
-// Image URL prefix for GitHub Pages subdirectory deployment.
-// Set IMAGE_BASE=/the-ghetto-shoes-blog in the build script for production builds.
-// Leave empty for development (images served at /images/...).
-const IMAGE_BASE = (process.env.IMAGE_BASE || '').replace(/\/?$/, '');
+/**
+ * Extracts the Astro base path from astro.config.mjs via regex.
+ * Falls back to IMAGE_BASE env var, then empty string.
+ */
+function resolveImageBase() {
+  if (process.env.IMAGE_BASE) {
+    return process.env.IMAGE_BASE.replace(/\/?$/, '');
+  }
+  try {
+    const configPath = path.join(projectRoot, 'astro.config.mjs');
+    const configSrc = fs.readFileSync(configPath, 'utf-8');
+    const match = configSrc.match(/base\s*:\s*['"]([^'"]+)['"]/);
+    if (match) return match[1].replace(/\/?$/, '');
+  } catch {
+    // astro.config.mjs not readable — use empty base
+  }
+  return '';
+}
+
+const IMAGE_BASE = resolveImageBase();
 const IMAGE_URL_PREFIX = IMAGE_BASE ? `${IMAGE_BASE}/images` : '/images';
 
 const IMAGE_EXTS = new Set(['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg']);
@@ -171,7 +187,7 @@ function extractFrontmatter(content) {
 
     // Handle arrays: [item1, item2]
     if (value.startsWith('[') && value.endsWith(']')) {
-      value = value.slice(1, -1).split(',').map(v => v.trim().replace(/['"]/g, ''));
+      value = value.slice(0, -1).slice(1).split(',').map(v => v.trim().replace(/['"]/g, ''));
     }
     // Handle quoted strings
     else if ((value.startsWith('"') && value.endsWith('"')) ||

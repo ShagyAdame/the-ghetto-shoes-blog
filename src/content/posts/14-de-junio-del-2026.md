@@ -12,10 +12,10 @@ Alerta de sold out inmediato 🚨🌺. Acaban de revelar los Crocs clásicos de 
 
 #Crocs #LiloYStitch #626Day #TendenciasTikTok
 
-![](/images/sin-titulo-14-de-junio-de-2026-a-las-175114.png)
+![](/the-ghetto-shoes-blog/images/sin-titulo-14-de-junio-de-2026-a-las-175114.png)
 
-![](/images/chatgpt-image-14-jun-2026-06_01_17-pm.png)
+![](/the-ghetto-shoes-blog/images/chatgpt-image-14-jun-2026-06_01_17-pm.png)
 
-![](/images/sin-titulo-14-de-junio-de-2026-a-las-174843.png)
+![](/the-ghetto-shoes-blog/images/sin-titulo-14-de-junio-de-2026-a-las-174843.png)
 
-![](/images/sin-titulo-14-de-junio-de-2026-a-las-175008.png)
+![](/the-ghetto-shoes-blog/images/sin-titulo-14-de-junio-de-2026-a-las-175008.png)

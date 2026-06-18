@@ -22,16 +22,16 @@ Desliza para ver la confirmación. 👉 Un nuevo imperio comienza con el Swoosh.
 
 
 
-![](/images/gemini_generated_image_sgav4ksgav4ksgav.png)
+![](/the-ghetto-shoes-blog/images/gemini_generated_image_sgav4ksgav4ksgav.png)
 
-![](/images/1.png)
+![](/the-ghetto-shoes-blog/images/1.png)
 
-![](/images/2.png)
+![](/the-ghetto-shoes-blog/images/2.png)
 
-![](/images/3.png)
+![](/the-ghetto-shoes-blog/images/3.png)
 
-![](/images/4.png)
+![](/the-ghetto-shoes-blog/images/4.png)
 
-![](/images/5.png)
+![](/the-ghetto-shoes-blog/images/5.png)
 
-![](/images/6.png)
+![](/the-ghetto-shoes-blog/images/6.png)
