@@ -17,6 +17,7 @@ const {
   ogType = 'website',
 } = Astro.props;
 
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const siteUrl = 'https://shagyadame.github.io/the-ghetto-shoes-blog';
 const pageTitle = `${title} | The Ghetto Shoe's`;
 const canonicalUrl = Astro.url.href;
@@ -94,7 +95,7 @@ const ogImage = image
         font-display: swap;
       }
 
-      /* ── Decorative sneaker silhouettes ── */
+      /* ── Decorative side vector ── */
       .page-sneakers {
         position: fixed;
         inset: 0;
@@ -108,67 +109,54 @@ const ogImage = image
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        width: clamp(140px, 12vw, 220px);
-        height: auto;
-        color: var(--color-accent);
-        opacity: 0.08;
+        width: auto;
+        height: clamp(300px, 40vh, 600px);
+        opacity: 0.35;
       }
 
       .sneaker-left {
-        left: clamp(-40px, -2vw, 0px);
-        transform: translateY(-50%) scaleX(-1);
+        left: 0;
+        object-position: left center;
       }
 
       .sneaker-right {
-        right: clamp(-40px, -2vw, 0px);
+        right: 0;
+        object-position: right center;
       }
 
       @media (max-width: 1024px) {
         .sneaker-left,
         .sneaker-right {
-          width: 100px;
-          opacity: 0.06;
-        }
-
-        .sneaker-left {
-          left: -30px;
-        }
-
-        .sneaker-right {
-          right: -30px;
+          height: 250px;
+          opacity: 0.25;
         }
       }
 
       @media (max-width: 639px) {
         .sneaker-left,
         .sneaker-right {
-          width: 70px;
-          opacity: 0.05;
-        }
-
-        .sneaker-left {
-          left: -20px;
-        }
-
-        .sneaker-right {
-          right: -20px;
+          height: 150px;
+          opacity: 0.2;
         }
       }
     </style>
   </head>
   <body>
     <div class="page-sneakers" aria-hidden="true">
-      <svg class="sneaker-left" viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M10 80 L15 40 Q20 20 40 15 L100 10 Q120 8 140 15 L170 25 Q185 30 190 45 L195 60 Q198 70 195 80 L190 90 Q188 95 185 95 L160 95 Q150 95 145 90 L140 80 L100 80 L90 95 Q85 100 75 100 L25 100 Q15 100 10 90 L8 85 Z" fill="currentColor"/>
-        <rect x="50" y="30" width="60" height="15" rx="4" fill="white" opacity="0.15"/>
-        <circle cx="165" cy="70" r="20" fill="white" opacity="0.1"/>
-      </svg>
-
-      <svg class="sneaker-right" viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M190 80 L185 40 Q180 20 160 15 L100 10 Q80 8 60 15 L30 25 Q15 30 10 45 L5 60 Q2 70 5 80 L10 90 Q12 95 15 95 L40 95 Q50 95 55 90 L60 80 L100 80 L110 95 Q115 100 125 100 L175 100 Q185 100 190 90 L192 85 Z" fill="currentColor"/>
-        <rect x="90" y="30" width="60" height="15" rx="4" fill="white" opacity="0.15"/>
-        <circle cx="35" cy="70" r="20" fill="white" opacity="0.1"/>
-      </svg>
+      <img
+        src={`${base}images/vector-side.png`}
+        alt=""
+        class="sneaker-left"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        src={`${base}images/vector-side.png`}
+        alt=""
+        class="sneaker-right"
+        loading="lazy"
+        decoding="async"
+      />
     </div>
     <div class="page-wrapper">
       <Header />
