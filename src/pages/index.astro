@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import HeroPost from '../components/HeroPost.astro';
 import PostGrid from '../components/PostGrid.astro';
 
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const allPosts = await getCollection('posts', ({ data }) => data.published !== false);
 const sortedPosts = allPosts.sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
@@ -49,7 +50,7 @@ const recentPosts = sortedPosts.slice(1, 7); // Next 6 posts
         de caminarla con estilo y de contar las historias que cada par de zapatos lleva consigo.
         Acá vas a encontrar lanzamientos, reseñas, cultura urbana y todo lo que mueve el asfalto.
       </p>
-      <a href="/about" class="brand-link">Conocé más →</a>
+      <a href={`${base}about`} class="brand-link">Conocé más →</a>
     </div>
   </section>
 

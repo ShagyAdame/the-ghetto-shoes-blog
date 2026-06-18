@@ -16,12 +16,13 @@ const { post, prevPost, nextPost } = Astro.props;
 const { data } = post;
 const { Content } = await render(post);
 
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const siteUrl = 'https://shagyadame.github.io/the-ghetto-shoes-blog';
 const postUrl = `${siteUrl}/posts/${post.id}/`;
 
 // Get the hero image: from frontmatter image, or first image from rendered content
 const imageSrc = data.image
-  ? `/images/${data.image}`
+  ? `${base}images/${data.image}`
   : null;
 ---
 
@@ -80,7 +81,7 @@ const imageSrc = data.image
     <nav class="post-nav" aria-label="Navegación entre posts">
       <div class="post-nav-inner">
         {prevPost ? (
-          <a href={`/posts/${prevPost.id}/`} class="post-nav-link post-nav-prev">
+          <a href={`${base}posts/${prevPost.id}/`} class="post-nav-link post-nav-prev">
             <span class="post-nav-direction">← Post anterior</span>
             <span class="post-nav-title">{prevPost.data.title}</span>
           </a>
@@ -89,7 +90,7 @@ const imageSrc = data.image
         )}
 
         {nextPost ? (
-          <a href={`/posts/${nextPost.id}/`} class="post-nav-link post-nav-next">
+          <a href={`${base}posts/${nextPost.id}/`} class="post-nav-link post-nav-next">
             <span class="post-nav-direction">Post siguiente →</span>
             <span class="post-nav-title">{nextPost.data.title}</span>
           </a>

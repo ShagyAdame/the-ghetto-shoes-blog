@@ -8,7 +8,8 @@ export interface Props {
 
 const { post } = Astro.props;
 const { data } = post;
-const href = `/posts/${post.id}/`;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const href = `${base}posts/${post.id}/`;
 ---
 
 <article class="hero-post">
@@ -17,7 +18,7 @@ const href = `/posts/${post.id}/`;
       {
         data.image ? (
           <img
-            src={`/images/${data.image}`}
+            src={`${base}images/${data.image}`}
             alt={data.title}
             class="hero-post-image"
           />

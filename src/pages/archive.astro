@@ -3,6 +3,8 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import TagBadge from '../components/TagBadge.astro';
 
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+
 const allPosts = await getCollection('posts', ({ data }) => data.published !== false);
 const sortedPosts = allPosts.sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
@@ -65,7 +67,7 @@ const totalPosts = sortedPosts.length;
             <ul class="archive-post-list">
               {group.posts.map((post) => (
                 <li class="archive-post-item">
-                  <a href={`/posts/${post.id}/`} class="archive-post-link">
+                  <a href={`${base}posts/${post.id}/`} class="archive-post-link">
                     <time
                       class="archive-post-date"
                       datetime={post.data.date.toISOString()}
