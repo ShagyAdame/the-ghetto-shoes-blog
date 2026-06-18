@@ -99,6 +99,13 @@ const imageSrc = data.image
       </div>
     </nav>
 
+    <!-- Comentar CTA -->
+    <div class="post-comment-cta">
+      <a href="#giscus-comments" class="comment-cta-button">
+        💬 Comentar
+      </a>
+    </div>
+
     <!-- Comment Section -->
     <CommentSection />
   </article>
@@ -374,6 +381,37 @@ const imageSrc = data.image
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+
+  /* ── Comment CTA ── */
+
+  .post-comment-cta {
+    display: flex;
+    justify-content: center;
+    margin: var(--space-2xl) 0 var(--space-lg);
+  }
+
+  .comment-cta-button {
+    display: inline-block;
+    padding: var(--space-sm) var(--space-xl);
+    background-color: var(--color-cta);
+    color: var(--color-text-light);
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    border: 2px solid var(--color-cta);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .comment-cta-button:hover {
+    background-color: transparent;
+    color: var(--color-cta);
+    transform: translateY(-2px);
   }
 
   @media (max-width: 639px) {

@@ -1,7 +1,7 @@
 ---
 title: "🚨 El MVP acaba de reescribir la historia"
 date: "2026-06-17"
-tags: ["sneakers", "marketing"]
+tags: ["sneakers"]
 published: true
 description: "😳 Dejó de ser el Director Creativo de Converse tras lanzar las icónicas SHAI 001 para dar el salto definitivo."
 author: "The Ghetto Shoe's"
