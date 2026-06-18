@@ -17,9 +17,19 @@ function isActive(href: string): boolean {
 
 <header class="site-header">
   <div class="header-container">
-    <a href={base} class="logo" aria-label="THE GHETTO SHOE'S — Inicio">
-      <span class="logo-text">THE GHETTO SHOE'S</span>
-    </a>
+    <div class="header-left">
+      <a href={base} class="logo" aria-label="THE GHETTO SHOE'S — Inicio">
+        <span class="logo-text">THE GHETTO SHOE'S</span>
+      </a>
+
+      <img
+        src={`${base}images/logo.png`}
+        alt="The Ghetto Shoe's Logo"
+        class="header-logo"
+        width="120"
+        height="auto"
+      />
+    </div>
 
     <button class="hamburger" aria-label="Abrir menú de navegación" aria-expanded="false">
       <span class="hamburger-line"></span>
@@ -85,10 +95,29 @@ function isActive(href: string): boolean {
     justify-content: space-between;
   }
 
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+  }
+
   .logo {
     text-decoration: none;
     display: flex;
     align-items: center;
+  }
+
+  .header-logo {
+    display: block;
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 0 8px rgba(255, 179, 71, 0.4));
+    transition: filter 0.2s ease;
+  }
+
+  .header-logo:hover {
+    filter: drop-shadow(0 0 14px rgba(255, 179, 71, 0.7));
   }
 
   .logo-text {
