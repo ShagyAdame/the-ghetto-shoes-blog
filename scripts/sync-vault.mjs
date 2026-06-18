@@ -195,7 +195,7 @@ function generateFrontmatter(content, { filename, mtime, slug }) {
   return {
     title,
     date,
-    tags: ['sneakers', 'marketing'],
+    tags: ['sneakers'],
     published: true,
     description,
     author: "The Ghetto Shoe's",

@@ -1,7 +1,7 @@
 ---
 title: "Lanzamiento Crocs x Disney Lilo & Stitch"
 date: "2026-06-14"
-tags: ["sneakers", "marketing"]
+tags: ["sneakers"]
 published: true
 description: "Alerta de sold out — los Crocs clásicos de Lilo & Stitch ya están acá. Estampado tropical, Jibbitz exclusivos y lanzamiento global el 26 de junio."
 author: "The Ghetto Shoe's"
