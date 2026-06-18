@@ -126,41 +126,33 @@ const ogImage = image
       .side-vector {
         display: block;
         width: auto;
-        height: clamp(200px, 25vh, 400px);
+        height: clamp(280px, 40vh, 700px);
       }
 
       .side-logo {
         display: block;
         width: auto;
-        height: clamp(80px, 12vh, 180px);
+        height: clamp(120px, 20vh, 300px);
         object-fit: contain;
       }
 
       @media (max-width: 1024px) {
-        .side-group {
-          opacity: 0.25;
-        }
-
         .side-vector {
-          height: 150px;
+          height: 200px;
         }
 
         .side-logo {
-          height: 60px;
+          height: 90px;
         }
       }
 
       @media (max-width: 639px) {
-        .side-group {
-          opacity: 0.2;
-        }
-
         .side-vector {
-          height: 100px;
+          height: 130px;
         }
 
         .side-logo {
-          height: 40px;
+          height: 55px;
         }
       }
     </style>
