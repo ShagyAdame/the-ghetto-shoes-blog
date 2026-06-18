@@ -95,7 +95,7 @@ const ogImage = image
         font-display: swap;
       }
 
-      /* ── Decorative side vector ── */
+      /* ── Decorative side vector + logo ── */
       .page-sneakers {
         position: fixed;
         inset: 0;
@@ -104,59 +104,102 @@ const ogImage = image
         overflow: hidden;
       }
 
-      .sneaker-left,
-      .sneaker-right {
+      .side-group {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        width: auto;
-        height: clamp(300px, 40vh, 600px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--space-lg);
         opacity: 0.35;
       }
 
-      .sneaker-left {
+      .side-left {
         left: 0;
-        object-position: left center;
       }
 
-      .sneaker-right {
+      .side-right {
         right: 0;
-        object-position: right center;
+      }
+
+      .side-vector {
+        display: block;
+        width: auto;
+        height: clamp(200px, 25vh, 400px);
+      }
+
+      .side-logo {
+        display: block;
+        width: auto;
+        height: clamp(80px, 12vh, 180px);
+        object-fit: contain;
       }
 
       @media (max-width: 1024px) {
-        .sneaker-left,
-        .sneaker-right {
-          height: 250px;
+        .side-group {
           opacity: 0.25;
+        }
+
+        .side-vector {
+          height: 150px;
+        }
+
+        .side-logo {
+          height: 60px;
         }
       }
 
       @media (max-width: 639px) {
-        .sneaker-left,
-        .sneaker-right {
-          height: 150px;
+        .side-group {
           opacity: 0.2;
+        }
+
+        .side-vector {
+          height: 100px;
+        }
+
+        .side-logo {
+          height: 40px;
         }
       }
     </style>
   </head>
   <body>
     <div class="page-sneakers" aria-hidden="true">
-      <img
-        src={`${base}images/vector-side.png`}
-        alt=""
-        class="sneaker-left"
-        loading="lazy"
-        decoding="async"
-      />
-      <img
-        src={`${base}images/vector-side.png`}
-        alt=""
-        class="sneaker-right"
-        loading="lazy"
-        decoding="async"
-      />
+      <div class="side-group side-left">
+        <img
+          src={`${base}images/vector-side.png`}
+          alt=""
+          class="side-vector"
+          loading="lazy"
+          decoding="async"
+        />
+        <img
+          src={`${base}images/logo.png`}
+          alt=""
+          class="side-logo"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+
+      <div class="side-group side-right">
+        <img
+          src={`${base}images/vector-side.png`}
+          alt=""
+          class="side-vector"
+          loading="lazy"
+          decoding="async"
+        />
+        <img
+          src={`${base}images/logo.png`}
+          alt=""
+          class="side-logo"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
     </div>
     <div class="page-wrapper">
       <Header />
