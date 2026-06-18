@@ -572,9 +572,10 @@ function main() {
 
   // Validate vault path
   if (!fs.existsSync(VAULT_PATH)) {
-    log('error', `Vault path does not exist: ${VAULT_PATH}`);
-    console.error(`\n  Set VAULT_PATH environment variable or check the default path.`);
-    process.exit(1);
+    log('warn', `Vault path does not exist: ${VAULT_PATH}`);
+    log('warn', 'Set VAULT_PATH env var or check the default. Using existing content.');
+    console.log('');
+    return 0;
   }
 
   // 1. Process images (build image map + copy)
