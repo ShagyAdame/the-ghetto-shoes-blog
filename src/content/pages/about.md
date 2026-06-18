@@ -8,6 +8,6 @@ date: "2026-06-15"
 
 ###### es decir me gustarían llevar y crear una tienda donde se vendan muchas osas retro algunas de ellas: Sneakers, Chamarras, Comics, mangas, balones de baloncesto, Jeans, Peluches retro, Figuras de acción. 
 
-Sistema Neuronal Central de The Ghetto Shoes
+
 
 

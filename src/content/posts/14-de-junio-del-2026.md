@@ -19,5 +19,3 @@ Alerta de sold out inmediato 🚨🌺. Acaban de revelar los Crocs clásicos de 
 ![](/images/sin-titulo-14-de-junio-de-2026-a-las-174843.png)
 
 ![](/images/sin-titulo-14-de-junio-de-2026-a-las-175008.png)
-Sistema Neuronal Central de The Ghetto Shoes
-Programación Luis/The Ghetto Shoe´s/DeepSearch Diarias de Geminis/14 de junio del 2026

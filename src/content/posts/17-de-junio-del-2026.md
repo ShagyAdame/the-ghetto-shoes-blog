@@ -19,7 +19,7 @@ Desliza para ver la confirmación. 👉 Un nuevo imperio comienza con el Swoosh.
 #shai #nikebasketball #noticiasdezapatillas #zapatillas 
 
 
-Sistema Neuronal Central de The Ghetto Shoes
+
 
 
 ![](/images/gemini_generated_image_sgav4ksgav4ksgav.png)
@@ -34,4 +34,4 @@ Sistema Neuronal Central de The Ghetto Shoes
 
 ![](/images/5.png)
 
-![](/images/6.png)Sistema Neuronal Central de The Ghetto Shoes
+![](/images/6.png)

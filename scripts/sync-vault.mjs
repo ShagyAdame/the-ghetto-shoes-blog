@@ -263,9 +263,31 @@ function transformWikiImages(content, imageMap) {
 }
 
 /**
- * Transforms Obsidian wikilinks to plain text.
- * `[[Text]]` → `Text`
- * Future: if `knownPages` contains the link target, create `[Text](/link)`.
+ * Phrases that refer to vault-internal organizational notes, not content.
+ * Wikilinks containing these phrases are stripped entirely.
+ */
+const VAULT_ORG_PHRASES = [
+  'sistema neuronal central',
+];
+
+/**
+ * Checks if a wikilink target should be stripped entirely (not shown in published content).
+ * @param {string} text - The wikilink target text (trimmed)
+ * @returns {boolean}
+ */
+function shouldStripWikilink(text) {
+  // Strip file paths (vault-internal navigation, not content)
+  if (/[/\\]/.test(text)) return true;
+  // Strip known organizational phrases
+  const lower = text.toLowerCase();
+  return VAULT_ORG_PHRASES.some((phrase) => lower.includes(phrase));
+}
+
+/**
+ * Transforms Obsidian wikilinks.
+ * - Known pages → `[Text](/link)`
+ * - Strip internal paths and org phrases → removed entirely
+ * - Others → plain text
  *
  * @param {string} content - The markdown content
  * @param {Set<string>} [knownPages] - Set of known page slugs for link generation
@@ -274,12 +296,17 @@ function transformWikiImages(content, imageMap) {
 function transformWikiLinks(content, knownPages = new Set()) {
   return content.replace(/\[\[([^\]]+)\]\]/g, (_match, text) => {
     const trimmed = text.trim();
+
+    // Strip vault-internal paths and organizational phrases
+    if (shouldStripWikilink(trimmed)) return '';
+
     // If the link matches a known page slug, create an internal link
     const slug = generateSlug(trimmed);
     if (knownPages.has(slug)) {
       return `[${trimmed}](/${slug})`;
     }
-    // Otherwise strip to plain text
+
+    // Otherwise show as plain text
     return trimmed;
   });
 }
@@ -405,8 +432,12 @@ function getContenidoNote(postFile, imageMap) {
     return _match;
   });
 
-  // Transform wikilinks to plain text: [[Text]] → Text
-  body = body.replace(/\[\[([^\]]+)\]\]/g, (_match, text) => text.trim());
+  // Transform wikilinks: strip org phrases and paths, others to plain text
+  body = body.replace(/\[\[([^\]]+)\]\]/g, (_match, text) => {
+    const trimmed = text.trim();
+    if (shouldStripWikilink(trimmed)) return '';
+    return trimmed;
+  });
 
   // Extract first image for hero
   const firstImgMatch = body.match(/\/images\/([^"')]+)/);
