@@ -166,6 +166,8 @@ function extractDateFromFilename(filename) {
  * Returns { frontmatter: {...}, restContent: "..." } or null.
  */
 function extractFrontmatter(content) {
+  // Strip UTF-8 BOM — vault files saved by Obsidian may start with \uFEFF
+  if (content.charCodeAt(0) === 0xfeff) content = content.slice(1);
   if (!content.startsWith('---')) return null;
 
   const endIndex = content.indexOf('---', 3);
@@ -432,7 +434,8 @@ function getKnownPages() {
  */
 function getContenidoNote(postFile, imageMap) {
   const name = path.basename(postFile, path.extname(postFile));
-  const dateMatch = name.match(/(\d{1,2}\s+de\s+\w+\s+(?:del|de)\s+\d{4})/);
+  // Date may carry a suffix for duplicate-day posts: "... del 2026" | "... del 2026 pm" | "... del 2026 2"
+  const dateMatch = name.match(/(\d{1,2}\s+de\s+\w+\s+(?:del|de)\s+\d{4}(?:\s+pm|\s+2)?)/i);
   if (!dateMatch) return { body: null, firstImage: null };
 
   const contenidoFile = path.join(IMAGES_SOURCE, `Contenido del ${dateMatch[1]}.md`);

@@ -16,6 +16,10 @@ Desliza para ver la confirmación. 👉 Un nuevo imperio comienza con el Swoosh.
 
 #shai #nikebasketball #noticiasdezapatillas #zapatillas
 
+
+
+
+
 ![](/the-ghetto-shoes-blog/images/gemini_generated_image_sgav4ksgav4ksgav.png)
 
 ![](/the-ghetto-shoes-blog/images/1-1.png)
