@@ -1,19 +1,21 @@
 ---
-title: "First Look at the Air Jordan 8 “Knicks” 🗽The Air Jordan 8 “Knicks” brings a bold New York-inspi"
+title: "Air Jordan 8 \\\"Knicks\\\": el siguiente capítulo del tributo a Nueva York"
 date: "2026-09-18"
 tags: ["sneakers"]
 published: true
-description: "First Look at the Air Jordan 8 “Knicks” 🗽The Air Jordan 8 “Knicks” brings a bold New York-inspi"
+description: "🗽 Los Knicks llegan en Air Jordan 8: Jordan Brand presentó el 8 \\\"Knicks\\\" y el primer look ya tiene la ciudad hablando."
 author: "The Ghetto Shoe's"
 image: "2026-09-18-first-look-at-the-air-jordan-8-knicks-the-air-jordan-8-knicks-brings-a-bold-new-york-inspi-1.jpg"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-First Look at the Air Jordan 8 “Knicks” 🗽The Air Jordan 8 “Knicks” brings a bold New York-inspi
+🗽 Los Knicks llegan en Air Jordan 8.
 
-See images: Contenido del 18 de septiembre del 2026
+El tributo a Nueva York sigue sumando: Jordan Brand presentó el Air Jordan 8 "Knicks" y el primer look ya tiene la ciudad entera hablando. 😳
 
+Silueta del 8 con los colores de los campeones: azul y naranja desparramados sobre cuero, y ese ADN neoyorquino que la ciudad reclama. Después de la corona del Jordan 3, este es el siguiente capítulo.
 
+Nueva York vuelve a tomar el trono: el 8 vestido de Knicks, con todos los colores de la temporada que terminó en corona. El 3 Knicks se fue volando en preventa — el 8 de campeón no va a durar más. Escribinos y te pasamos el link. Envíaselo al fan de Nueva York que ya tiene el 3. 🧠💾
 
 ![](/the-ghetto-shoes-blog/images/2026-09-18-first-look-at-the-air-jordan-8-knicks-the-air-jordan-8-knicks-brings-a-bold-new-york-inspi-1.jpg)
 

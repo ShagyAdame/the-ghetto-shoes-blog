@@ -1,18 +1,21 @@
 ---
-title: "First Look at the Air Jordan 13 OG “Flint” (2026) 🔵Originally released back in 1998, one of the"
+title: "Air Jordan 13 “Flint”: el clásico de 1998 vuelve en 2026 🔵"
 date: "2026-05-10"
 tags: ["sneakers"]
 published: true
-description: "First Look at the Air Jordan 13 OG “Flint” (2026) 🔵Originally released back in 1998, one of the"
+description: "🔵 El Air Jordan 13 OG “Flint” toca tierra de nuevo."
 author: "The Ghetto Shoe's"
 image: "2026-05-10-first-look-at-the-air-jordan-13-og-flint-2026-originally-released-back-in-1998-one-of-the-1.jpg"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-First Look at the Air Jordan 13 OG “Flint” (2026) 🔵Originally released back in 1998, one of the
+🔵 El Air Jordan 13 OG “Flint” toca tierra de nuevo. Y esta vez con su colorway original.
 
-See images: Contenido del 10 de mayo del 2026
+Nacido en 1998 y de vuelta en 2026: azul, gris y esa elegancia que lo convirtió en leyenda de la marca del salto. Es el primer vistazo oficial al retro que los fans vienen pidiendo hace años.
 
+Uno de los retros más pedidos de los últimos años, de regreso en su versión más fiel. Cuando aterrice, no va a sobrar nada.
+
+¿Te lo quedás o lo dejás pasar? Escribinos y te pasamos el link. 💬🔥
 
 
 ![](/the-ghetto-shoes-blog/images/2026-05-10-first-look-at-the-air-jordan-13-og-flint-2026-originally-released-back-in-1998-one-of-the-1.jpg)

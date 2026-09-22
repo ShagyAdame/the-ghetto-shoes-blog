@@ -1,19 +1,21 @@
 ---
-title: "New Look at the Air Jordan 5 OG “Halloween” 🎃Jordan Brand is bringing a seasonal twist to the i"
+title: "Air Jordan 5 \\\"Halloween\\\": Jordan Brand abre la temporada de terror"
 date: "2026-09-05"
 tags: ["sneakers"]
 published: true
-description: "New Look at the Air Jordan 5 OG “Halloween” 🎃Jordan Brand is bringing a seasonal twist to the i"
+description: "🎃 El Air Jordan 5 se viste de Halloween: nuevo look del OG con la paleta de octubre en cuero."
 author: "The Ghetto Shoe's"
 image: "2026-09-05-new-look-at-the-air-jordan-5-og-halloween-jordan-brand-is-bringing-a-seasonal-twist-to-the-i-1.jpg"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-New Look at the Air Jordan 5 OG “Halloween” 🎃Jordan Brand is bringing a seasonal twist to the i
+🎃 El Air Jordan 5 se viste de Halloween.
 
-See images: Contenido del 5 de septiembre del 2026
+Jordan Brand está trayendo un giro estacional a uno de los clásicos: el Air Jordan 5 OG "Halloween" ya tiene nuevo look y el diseño está para helar la sangre. 😳
 
+Silueta OG con los paneles característicos, paleta de octubre puesta en cuero y ese toque que solo Jordan sabe darle a un clásico. La temporada de terror empieza en tus pies.
 
+Nada de cambios raros: el cinco que todos conocemos, pero metido de lleno en octubre. Cuando Jordan saca un Halloween, el stock dura poco. Escribinos y te pasamos el link. Guardá el post y envíaselo a quien colecciona Jordans de por vida. 🧠💾
 
 ![](/the-ghetto-shoes-blog/images/2026-09-05-new-look-at-the-air-jordan-5-og-halloween-jordan-brand-is-bringing-a-seasonal-twist-to-the-i-1.jpg)
 

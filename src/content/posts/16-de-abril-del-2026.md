@@ -1,19 +1,21 @@
 ---
-title: "Nike is dropping a new Mind 001-002 collection on April 30th 🧠Featuring five Mind 001 ($95) and"
+title: "Nike arma una familia entera con la colección Mind 001-002"
 date: "2026-04-16"
 tags: ["sneakers"]
 published: true
-description: "Nike is dropping a new Mind 001-002 collection on April 30th 🧠Featuring five Mind 001 ($95) and"
+description: "Nike confirma la colección Mind 001-002 completa para el 30 de abril: cinco Mind 001 a $95 USD y las nuevas Mind 002."
 author: "The Ghetto Shoe's"
 image: "2026-04-16-gemini_generated_image_kvgj4zkvgj4zkvgj.png"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-Nike is dropping a new Mind 001-002 collection on April 30th 🧠Featuring five Mind 001 ($95) and
+Cuando Nike dice colección completa, lo dice en serio. Para el 30 de abril llega la familia Mind 001-002 entera: cinco colorways de las Mind 001 a $95 USD cada una, más la llegada de las nuevas Mind 002 para redondear el drop. 
 
-See images: Contenido del 16 de abril del 2026
+Eso son varios pares de golpe, pero todos con ese ADN limpio y futurista que le está dando mucho peso a la línea Mind. Cómodas para todo el día, diseño minimalista y un precio que te deja margen para elegir más de uno sin sentir que te estás yendo a la quiebra. 
 
+Es de esos drops que definen el mes. Cinco opciones distintas para cubrir todos los gustos y encima suman las 002 al roster. Difícil que algo quede afuera esta vez. 
 
+Escribinos y te pasamos el link por DM antes de que desaparezcan.
 
 ![](/the-ghetto-shoes-blog/images/2026-04-16-gemini_generated_image_kvgj4zkvgj4zkvgj.png)
 

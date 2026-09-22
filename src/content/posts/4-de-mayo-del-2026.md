@@ -1,18 +1,21 @@
 ---
-title: "On-Foot Look at the Air Jordan 12 “Bloodline” 🩸Expected to release on May 23rd for $215, this c"
+title: "Air Jordan 12 “Bloodline”: 23 de mayo por USD 215 🩸"
 date: "2026-05-04"
 tags: ["sneakers"]
 published: true
-description: "On-Foot Look at the Air Jordan 12 “Bloodline” 🩸Expected to release on May 23rd for $215, this c"
+description: "🩸 El Air Jordan 12 “Bloodline” se dejó ver en la calle."
 author: "The Ghetto Shoe's"
 image: "2026-05-04-gemini_generated_image_7425657425657425.png"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-On-Foot Look at the Air Jordan 12 “Bloodline” 🩸Expected to release on May 23rd for $215, this c
+🩸 El Air Jordan 12 “Bloodline” se dejó ver en la calle. Y las fotos on-foot no decepcionan.
 
-See images: Contenido del 4 de mayo del 2026
+Uno de los retros más esperados del año vuelve con ese equilibrio entre negro, blanco y rojo que lo hizo famoso. Fecha anotada: 23 de mayo. Precio: USD 215. Pura historia de la marca del salto en los pies.
 
+Prepará la fecha de lanzamiento desde ahora, porque cuando se acabe, se acaba.
+
+¿Lo vas a buscar o lo vas a ver pasar? Escribinos y te pasamos el link. 💬🔥
 
 
 ![](/the-ghetto-shoes-blog/images/2026-05-04-gemini_generated_image_7425657425657425.png)

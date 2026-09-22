@@ -1,18 +1,21 @@
 ---
-title: "First Look at the Nike Air Force 1 “NYC Rat” 🐀Nike is taking inspiration from one of New York C"
+title: "Air Force 1 “NYC Rat”: la AF1 inspirada en la rata de Nueva York"
 date: "2026-08-30"
 tags: ["sneakers"]
 published: true
-description: "First Look at the Nike Air Force 1 “NYC Rat” 🐀Nike is taking inspiration from one of New York C"
+description: "¿La AF1 más neoyorquina de la historia? Nike encontró inspiración donde NADIE se anima a mirar: la rata de Nueva York."
 author: "The Ghetto Shoe's"
 image: "2026-08-30-1.png"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-First Look at the Nike Air Force 1 “NYC Rat” 🐀Nike is taking inspiration from one of New York C
+¿La AF1 más neoyorquina de la historia? Nike encontró inspiración donde NADIE se anima a mirar: la rata de Nueva York.
 
-See images: Contenido del 30 de agosto del 2026
+Primeras imágenes oficiales de la Air Force 1 “NYC Rat”: media de pelo gris, detalles que imitan la piel del bicho y ese guiño sucio-urbano que es 100% calle New York. Sí, es una zapatilla inspirada en una rata. Y queda genial. 🤯
 
+Esto no es un colorway más. Es cultura, es NYC, es el tipo de rareza que después no conseguís ni en reventa. Las AF1 especiales se agotan en horas, y esta es de las que se van primero.
+
+¿Te la sumás a la colección? Escribinos y te pasamos el link antes de que se agote. 🗽⚡
 
 
 ![](/the-ghetto-shoes-blog/images/2026-08-30-1.png)

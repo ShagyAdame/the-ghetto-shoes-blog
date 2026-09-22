@@ -1,19 +1,21 @@
 ---
-title: "Official images of the Nike Ja 3 “Bruce Lee” aka “Let Me Be Ja” 🐉This yellow and black colorway"
+title: "El dragón Ja Morant se hace Bruce Lee"
 date: "2026-04-28"
 tags: ["sneakers"]
 published: true
-description: "Official images of the Nike Ja 3 “Bruce Lee” aka “Let Me Be Ja” 🐉This yellow and black colorway"
+description: "Las Nike Ja 3 'Bruce Lee' aka 'Let Me Be Ja' ya tienen imágenes oficiales, con ese amarillo y negro que rinde homenaje a la leyenda."
 author: "The Ghetto Shoe's"
 image: "2026-04-28-gemini_generated_image_esr0vsesr0vsesr0.png"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-Official images of the Nike Ja 3 “Bruce Lee” aka “Let Me Be Ja” 🐉This yellow and black colorway
+Be water, my friend. Las Nike Ja 3 "Bruce Lee", también conocidas como "Let Me Be Ja", ya mostraron sus imágenes oficiales y el homenaje al dragón quedó brutal. Amarillo y negro de punta a punta, con toda la energía marcial que Bruce Lee le transmitió al mundo y que Ja Morant lleva muy adentro. 
 
-See images: Contenido del 28 de abril del 2026
+Hay detalles para los que saben: ese nombre "Let Me Be Ja" conecta directo con la historia y con lo que Ja lleva tatuado. No es un colorway cualquiera, es un tributo hecho con respeto a una de las mayores leyendas de las artes marciales, mezclado con la garra que Ja pone en cada partido. 
 
+El amarillo grita, el negro corta y la Ja 3 queda perfecta con ese ADN feroz. Cuando básquet y kung-fu se juntan así, el resultado no puede ser otro que épico. 
 
+Escribinos y te pasamos el link por DM antes de que desaparezcan.
 
 ![](/the-ghetto-shoes-blog/images/2026-04-28-gemini_generated_image_esr0vsesr0vsesr0.png)
 

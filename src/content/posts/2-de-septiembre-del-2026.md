@@ -1,18 +1,21 @@
 ---
-title: "First Look at Steph Curry’s first Li-Ning PE Sneaker Collection 😳Following his new long-term pa"
+title: "Steph Curry se jugó todo con Li-Ning: primer look de su primera PE"
 date: "2026-09-02"
 tags: ["sneakers"]
 published: true
-description: "First Look at Steph Curry’s first Li-Ning PE Sneaker Collection 😳Following his new long-term pa"
+description: "😳 Steph Curry se jugó todo con una marca nueva y ya soltó su primera colección PE con Li-Ning."
 author: "The Ghetto Shoe's"
 image: "2026-09-02-01.png"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-First Look at Steph Curry’s first Li-Ning PE Sneaker Collection 😳Following his new long-term pa
+😳 Steph Curry se jugó todo con una marca nueva.
 
-See images: Contenido del 2 de septiembre del 2026
+Después de años construyendo su propia línea, Curry firmó su nueva alianza de largo plazo con Li-Ning y ya soltó su primera colección de zapatillas PE: los pares que va a usar adentro de la cancha esta temporada. 🏀🔥
 
+Cada colorway está pensado para él: acabados premium, paletas que no se parecen a nada del retail y una silueta que todavía no salió a la venta. Primerísimo vistazo — nadie las tiene en los pies todavía.
+
+Cuando salga al retail el stock va a volar. Escribinos y te pasamos el link. Guardá el post y envíaselo a quien te mandó el highlight de los 3 pointers de anoche. 🧠💾
 
 
 ![](/the-ghetto-shoes-blog/images/2026-09-02-01.png)

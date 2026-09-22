@@ -1,26 +1,21 @@
 ---
-title: "🚨 El MVP acaba de reescribir la historia"
+title: "SGA deja Converse y firma con Nike Basketball 🤯"
 date: "2026-06-17"
 tags: ["sneakers"]
 published: true
-description: "😳 Dejó de ser el Director Creativo de Converse tras lanzar las icónicas SHAI 001 para dar el salto definitivo."
+description: "Pausá todo: el mercado de las zapatillas acaba de temblar. 😳"
 author: "The Ghetto Shoe's"
 image: "gemini_generated_image_sgav4ksgav4ksgav.png"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-😳 Dejó de ser el Director Creativo de Converse tras lanzar las icónicas SHAI 001 para dar el salto definitivo.
+Pausá todo: el mercado de las zapatillas acaba de temblar. 😳
 
-Nike ya lo hizo oficial: "Estamos encantados de darle la bienvenida a Shai Gilgeous Alexander a la familia signature de Nike Basketball. Su impacto será legendario". ⚡
+Shai Gilgeous-Alexander era el rey de Converse. Director Creativo, las SHAI 001, dos MVPs consecutivos. Parecía que nunca se iba a ir.
 
-Desliza para ver la confirmación. 👉 Un nuevo imperio comienza con el Swoosh. ¿Crees que este es el fichaje de la década en la NBA? Te leemos abajo. 👇💭
+Hoy es oficial: SGA deja Converse y firma con Nike Basketball como atleta Signature. Nike ya soltó el comunicado: “Estamos encantados de recibirlo”. Es un paso gigante para la cultura sneaker. 🔥
 
-#shai #nikebasketball #noticiasdezapatillas #zapatillas
-
-See images: Contenido del 17 de junio del 2026
-
-
-
+¿Cómo creés que serán sus primeras Nike? Escribinos y contanos. 💬
 
 ![](/the-ghetto-shoes-blog/images/gemini_generated_image_sgav4ksgav4ksgav.png)
 

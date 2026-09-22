@@ -1,19 +1,21 @@
 ---
-title: "Official images of the LeBron James x Nike Air Force 1 Low “White Marble” 🏛️Expected to release"
+title: "LeBron y Nike le dieron mármol a las AF1 Low"
 date: "2026-04-21"
 tags: ["sneakers"]
 published: true
-description: "Official images of the LeBron James x Nike Air Force 1 Low “White Marble” 🏛️Expected to release"
+description: "Las LeBron James x Nike Air Force 1 Low 'White Marble' muestran sus imágenes oficiales: elegancia pura con el sello del Rey."
 author: "The Ghetto Shoe's"
 image: "2026-04-21-gemini_generated_image_d3o6mrd3o6mrd3o6.png"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-Official images of the LeBron James x Nike Air Force 1 Low “White Marble” 🏛️Expected to release
+Hay AF1 que gritan y hay AF1 que no necesitan gritar para que todos las miren. Las LeBron James x Nike Air Force 1 Low "White Marble" entran justo en ese segundo grupo. Mármol blanco de punta a punta, materiales premium y ese toque del Rey en el detalle justo. 
 
-See images: Contenido del 21 de abril del 2026
+El resultado es pura elegancia sobre la silueta más icónica de la calle. No buscan llamar la atención a los gritos, la ganan con presencia. Es de esos pares que te levantan cualquier fit solo con ponértelos y que funcionan igual de bien para el día a día que para una salida importante. 
 
+Cuando LeBron se mete con las AF1, siempre sale algo distinto al resto. Esta vez le dio un baño de mármol y el resultado quedó impecable. 
 
+Escribinos y te pasamos el link por DM antes de que desaparezcan.
 
 ![](/the-ghetto-shoes-blog/images/2026-04-21-gemini_generated_image_d3o6mrd3o6mrd3o6.png)
 

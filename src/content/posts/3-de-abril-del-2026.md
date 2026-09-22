@@ -1,19 +1,21 @@
 ---
-title: "Retailer Look at the Air Jordan 5 OG “White Metallic” 🥶Expected to release on April 25th for $2"
+title: "Las Jordan 5 White Metallic ya tienen confirmación de tienda"
 date: "2026-04-03"
 tags: ["sneakers"]
 published: true
-description: "Retailer Look at the Air Jordan 5 OG “White Metallic” 🥶Expected to release on April 25th for $2"
+description: "Las fotos de retailer confirman que las Air Jordan 5 OG 'White Metallic' llegan el 25 de abril tal cual las recordábamos."
 author: "The Ghetto Shoe's"
 image: "2026-04-03-gemini_generated_image_1brt1g1brt1g1brt.png"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-Retailer Look at the Air Jordan 5 OG “White Metallic” 🥶Expected to release on April 25th for $2
+Cuando empiezan a aparecer las fotos de tienda, ya no hay dudas: el drop está al caer. Esta vez le tocó a las Air Jordan 5 OG "White Metallic", que con su registro de retailer confirman su llegada para el 25 de abril. 
 
-See images: Contenido del 3 de abril del 2026
+Es ese momento en el que lo que era rumor pasa a ser realidad. Cuero blanco impecable, goma de choque translúcida y ese detalle metálico que las hizo inmortales, todo en el molde original de 1990. No le cambiaron nada, y eso es justo lo que todos estábamos esperando. 
 
+Si ya venías contando los días, esta es la señal para dejar todo listo. Porque el stock que aparece ahora en las tiendas es el mismo que va a volar en minutos el día del drop. 
 
+Escribinos y te pasamos el link por DM antes de que desaparezcan.
 
 ![](/the-ghetto-shoes-blog/images/2026-04-03-gemini_generated_image_1brt1g1brt1g1brt.png)
 

@@ -1,18 +1,21 @@
 ---
-title: "Official images of the Air Jordan 7 “Tennis Day” 🎾Jordan Brand is bringing a tennis-inspired tw"
+title: "Air Jordan 7 “Tennis Day”: el retro más limpio del año ya mostró la cara"
 date: "2026-08-25"
 tags: ["sneakers"]
 published: true
-description: "Official images of the Air Jordan 7 “Tennis Day” 🎾Jordan Brand is bringing a tennis-inspired tw"
+description: "¿El retro más limpio del año? Las Air Jordan 7 “Tennis Day” acaban de mostrar sus primeras imágenes oficiales y ya prometen romperla."
 author: "The Ghetto Shoe's"
 image: "2026-08-25-1.png"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-Official images of the Air Jordan 7 “Tennis Day” 🎾Jordan Brand is bringing a tennis-inspired tw
+¿El retro más limpio del año? Las Air Jordan 7 “Tennis Day” acaban de mostrar sus primeras imágenes oficiales y ya prometen romperla.
 
-See images: Contenido del 25 de agosto del 2026
+Jordan Brand le da un giro tenístico al clásico de 1992: cuero blanco premium, acentos de caña en verde y lila, y un guiño directo a la cancha. El mismo espíritu de la primera era, pero listo para 2026.
 
+Esto es retro puro en su estado más fresco. Cuando un leak se ve así de definido, la preventa no tarda — y estos pares vuelan de los carritos. Si coleccionás 7, este no es un retro más: es el homenaje más limpio del año.
+
+¿Te las querés asegurar? Escribinos y te pasamos el link antes de que se agoten. 🔥
 
 
 ![](/the-ghetto-shoes-blog/images/2026-08-25-1.png)

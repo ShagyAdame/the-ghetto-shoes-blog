@@ -1,19 +1,21 @@
 ---
-title: "Nike really cooked with the new Air Force 1 Low “Flower” Collection 🌸Now Available- Comment “Fl"
+title: "Nike le puso primavera a las Air Force 1"
 date: "2026-04-22"
 tags: ["sneakers"]
 published: true
-description: "Nike really cooked with the new Air Force 1 Low “Flower” Collection 🌸Now Available- Comment “Fl"
+description: "La colección Air Force 1 Low 'Flower' ya está disponible y le dio un golpe de primavera a la reina de la calle."
 author: "The Ghetto Shoe's"
 image: "2026-04-22-pm-gemini_generated_image_2vcnat2vcnat2vcn.png"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-Nike really cooked with the new Air Force 1 Low “Flower” Collection 🌸Now Available- Comment “Fl
+Nike cocinó y esta vez le tocó a la primavera. La colección Air Force 1 Low "Flower" ya está disponible y le puso flores a la silueta más icónica de la calle sin perder ni un gramo de esa presencia que siempre tuvo la AF1. 
 
-See images: Contenido del 22 de abril del 2026 pm
+Los detalles florales están puestos justo donde tienen que estar: delicados, con estilo y con el equilibrio perfecto para no caer en cursi. Sobre el cuero clásico de siempre, el contraste queda espectacular y le da a las AF1 un giro fresco para esta época del año. 
 
+Son de esas zapatillas que te preguntan todo el tiempo de dónde las sacaste. Ya están a la venta y con lo limpias que quedan puestas, no van a durar mucho dando vueltas. 
 
+Escribinos y te pasamos el link por DM antes de que desaparezcan.
 
 ![](/the-ghetto-shoes-blog/images/2026-04-22-pm-gemini_generated_image_2vcnat2vcnat2vcn.png)
 

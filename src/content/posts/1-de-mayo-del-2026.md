@@ -1,18 +1,21 @@
 ---
-title: "Official images of the Nike Ja 3 “Tiger” 🐅Expected to release on July 3rd for $130, this pair c"
+title: "Nike Ja 3 “Tiger”: 3 de julio por USD 130 🐅"
 date: "2026-05-01"
 tags: ["sneakers"]
 published: true
-description: "Official images of the Nike Ja 3 “Tiger” 🐅Expected to release on July 3rd for $130, this pair c"
+description: "🚨 Las imágenes oficiales del Nike Ja 3 “Tiger” ya están en la calle."
 author: "The Ghetto Shoe's"
 image: "2026-05-01-gemini_generated_image_kjq8jrkjq8jrkjq8.png"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-Official images of the Nike Ja 3 “Tiger” 🐅Expected to release on July 3rd for $130, this pair c
+🚨 Las imágenes oficiales del Nike Ja 3 “Tiger” ya están en la calle. Y vienen con actitud. 🐅
 
-See images: Contenido del 1 de mayo del 2026
+Ja Morant no se anda con vueltas: su tercera firma con Nike aterriza en amarillo y negro, vibra tigre pura. Energía felina, caché callejero y fecha confirmada para que no te lo cuenten.
 
+Anotá en el calendario: 3 de julio. Precio: USD 130. Cuando se acabe, se acaba.
+
+¿Estás adentro o lo vas a mirar pasar? Escribinos y te pasamos el link. 💬🔥
 
 
 ![](/the-ghetto-shoes-blog/images/2026-05-01-gemini_generated_image_kjq8jrkjq8jrkjq8.png)

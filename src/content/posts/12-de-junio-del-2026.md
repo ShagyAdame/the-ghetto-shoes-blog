@@ -1,19 +1,19 @@
 ---
-title: "First Look at the J Balvin x Air Jordan 4 OG “Lemonade” 🍋J Balvin just debuted his upcoming col"
+title: "J Balvin x Air Jordan 4 “Lemonade”: primer vistazo 🍋"
 date: "2026-06-12"
 tags: ["sneakers"]
 published: true
-description: "First Look at the J Balvin x Air Jordan 4 OG “Lemonade” 🍋J Balvin just debuted his upcoming col"
+description: "🍋 J Balvin le pone su firma al Air Jordan 4."
 author: "The Ghetto Shoe's"
 image: "2026-06-12-first-look-at-the-j-balvin-x-air-jordan-4-og-lemonade-j-balvin-just-debuted-his-upcoming-col-1.jpg"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-First Look at the J Balvin x Air Jordan 4 OG “Lemonade” 🍋J Balvin just debuted his upcoming col
+🍋 J Balvin le pone su firma al Air Jordan 4. Primer vistazo al colorway “Lemonade” y la cultura ya está dividida.
 
-See images: Contenido del 12 de junio del 2026
+El rey del reggaetón debuta su colaboración con la marca del salto y el resultado es puro Balvin: color, ritmo y un 4 que no pasa desapercibido. Si conocés sus lanzamientos, sabés que esto no es un retro más.
 
-
+¿Lemonade como vos o lo mirás de lejos? Escribinos y te pasamos el link. 💬🔥
 
 ![](/the-ghetto-shoes-blog/images/2026-06-12-first-look-at-the-j-balvin-x-air-jordan-4-og-lemonade-j-balvin-just-debuted-his-upcoming-col-1.jpg)
 

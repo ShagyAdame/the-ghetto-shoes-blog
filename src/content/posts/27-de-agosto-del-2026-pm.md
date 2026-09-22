@@ -1,18 +1,21 @@
 ---
-title: "Every Sneaker (imitation) Spotted in GTA 6 So far 👀The GTA 6 Extended Look dropped today, givin"
+title: "Las zapatillas escondidas en el Extended Look de GTA 6"
 date: "2026-08-27"
 tags: ["sneakers"]
 published: true
-description: "Every Sneaker (imitation) Spotted in GTA 6 So far 👀The GTA 6 Extended Look dropped today, givin"
+description: "¿Viste lo que lleva GTA 6 en los pies? El Extended Look cayó hoy y ya encontramos TODAS las zapatillas sueltas en Los Santos."
 author: "The Ghetto Shoe's"
 image: "2026-08-27-pm-1.png"
 hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
-Every Sneaker (imitation) Spotted in GTA 6 So far 👀The GTA 6 Extended Look dropped today, givin
+¿Viste lo que lleva GTA 6 en los pies? El Extended Look cayó hoy y ya encontramos TODAS las zapatillas sueltas en Los Santos.
 
-See images: Contenido del 27 de agosto del 2026 pm
+Fotos de la vida real reinterpretadas en pixel art: clásicos que imitan a los pesados de la cultura. Nike, Jordan, todo camuflado pero inconfundible para el ojo entrenado. Rockstar sabe exactamente lo que está haciendo.
 
+Esto no es un videojuego. Es el catálogo sneaker más grande de la historia de la industria: cada par es un guiño a la historia real de las calles, y con ojo entrenado los ves en cada frame.
+
+¿Cuántas encontraste vos? Escribinos y te pasamos el link con el breakdown completo de cada par detectado. 🕹️🔥
 
 
 ![](/the-ghetto-shoes-blog/images/2026-08-27-pm-1.png)
