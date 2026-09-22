@@ -6,10 +6,12 @@ published: true
 description: "First Look at the Air Jordan 9 “Reflective” Boots 🔦Jordan Brand is bringing back the rugged Air"
 author: "The Ghetto Shoe's"
 image: "2026-08-28-2.jpg"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 First Look at the Air Jordan 9 “Reflective” Boots 🔦Jordan Brand is bringing back the rugged Air
 
+See images: Contenido del 28 de agosto del 2026
 
 
 
@@ -36,3 +38,4 @@ First Look at the Air Jordan 9 “Reflective” Boots 🔦Jordan Brand is bringi
 ![](/the-ghetto-shoes-blog/images/2026-08-28-first-look-at-the-air-jordan-9-reflective-boots-jordan-brand-is-bringing-back-the-rugged-air-9.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-08-28-first-look-at-the-air-jordan-9-reflective-boots-jordan-brand-is-bringing-back-the-rugged-air.jpg)
+Caption/text: 28 de agosto del 2026

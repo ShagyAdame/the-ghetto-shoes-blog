@@ -6,10 +6,12 @@ published: true
 description: "New Look at the Air Jordan 5 OG “Halloween” 🎃Jordan Brand is bringing a seasonal twist to the i"
 author: "The Ghetto Shoe's"
 image: "2026-09-05-new-look-at-the-air-jordan-5-og-halloween-jordan-brand-is-bringing-a-seasonal-twist-to-the-i-1.jpg"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 New Look at the Air Jordan 5 OG “Halloween” 🎃Jordan Brand is bringing a seasonal twist to the i
 
+See images: Contenido del 5 de septiembre del 2026
 
 
 
@@ -30,3 +32,4 @@ New Look at the Air Jordan 5 OG “Halloween” 🎃Jordan Brand is bringing a s
 ![](/the-ghetto-shoes-blog/images/2026-09-05-new-look-at-the-air-jordan-5-og-halloween-jordan-brand-is-bringing-a-seasonal-twist-to-the-i-8.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-09-05-new-look-at-the-air-jordan-5-og-halloween-jordan-brand-is-bringing-a-seasonal-twist-to-the-i.jpg)
+Caption/text: 5 de septiembre del 2026

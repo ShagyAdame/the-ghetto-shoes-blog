@@ -6,10 +6,12 @@ published: true
 description: "First Look at the J Balvin x Air Jordan 4 OG “Lemonade” 🍋J Balvin just debuted his upcoming col"
 author: "The Ghetto Shoe's"
 image: "2026-06-12-first-look-at-the-j-balvin-x-air-jordan-4-og-lemonade-j-balvin-just-debuted-his-upcoming-col-1.jpg"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 First Look at the J Balvin x Air Jordan 4 OG “Lemonade” 🍋J Balvin just debuted his upcoming col
 
+See images: Contenido del 12 de junio del 2026
 
 
 
@@ -36,3 +38,4 @@ First Look at the J Balvin x Air Jordan 4 OG “Lemonade” 🍋J Balvin just de
 ![](/the-ghetto-shoes-blog/images/2026-06-12-sin-titulo-12-de-junio-de-2026-a-las-19-50-42.png)
 
 ![](/the-ghetto-shoes-blog/images/2026-06-12-sin-titulo-12-de-junio-de-2026-a-las-19-53-10.png)
+Caption/text: 12 de junio del 2026

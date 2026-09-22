@@ -6,10 +6,12 @@ published: true
 description: "Nike is dropping a new Mind 001-002 collection on April 30th 🧠Featuring five Mind 001 ($95) and"
 author: "The Ghetto Shoe's"
 image: "2026-04-16-gemini_generated_image_kvgj4zkvgj4zkvgj.png"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 Nike is dropping a new Mind 001-002 collection on April 30th 🧠Featuring five Mind 001 ($95) and
 
+See images: Contenido del 16 de abril del 2026
 
 
 
@@ -46,3 +48,4 @@ Nike is dropping a new Mind 001-002 collection on April 30th 🧠Featuring five 
 ![](/the-ghetto-shoes-blog/images/2026-04-16-nike-is-dropping-a-new-mind-001-002-collection-on-april-30th-featuring-five-mind-001-95-and-9.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-04-16-nike-is-dropping-a-new-mind-001-002-collection-on-april-30th-featuring-five-mind-001-95-and.jpg)
+Caption/text: 16 de abril del 2026

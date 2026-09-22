@@ -6,10 +6,12 @@ published: true
 description: "First Look at the First Two Vansza Collections 🎶SZA’s vision as Vans’ Artistic Director is taki"
 author: "The Ghetto Shoe's"
 image: "2026-09-09-pm-first-look-at-the-first-two-vansza-collections-szas-vision-as-vans-artistic-director-is-taki-1.jpg"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 First Look at the First Two Vansza Collections 🎶SZA’s vision as Vans’ Artistic Director is taki
 
+See images: Contenido del 9 de septiembre del 2026 pm
 
 
 
@@ -50,3 +52,4 @@ First Look at the First Two Vansza Collections 🎶SZA’s vision as Vans’ Art
 ![](/the-ghetto-shoes-blog/images/2026-09-09-pm-first-look-at-the-first-two-vansza-collections-szas-vision-as-vans-artistic-director-is-taki-9.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-09-09-pm-first-look-at-the-first-two-vansza-collections-szas-vision-as-vans-artistic-director-is-taki.jpg)
+Caption/text: 9 de septiembre del 2026 pm

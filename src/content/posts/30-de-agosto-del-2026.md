@@ -6,10 +6,12 @@ published: true
 description: "First Look at the Nike Air Force 1 “NYC Rat” 🐀Nike is taking inspiration from one of New York C"
 author: "The Ghetto Shoe's"
 image: "2026-08-30-1.png"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 First Look at the Nike Air Force 1 “NYC Rat” 🐀Nike is taking inspiration from one of New York C
 
+See images: Contenido del 30 de agosto del 2026
 
 
 
@@ -30,3 +32,4 @@ First Look at the Nike Air Force 1 “NYC Rat” 🐀Nike is taking inspiration 
 ![](/the-ghetto-shoes-blog/images/2026-08-30-portada.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-08-30-portada.png)
+Caption/text: 30 de agosto del 2026

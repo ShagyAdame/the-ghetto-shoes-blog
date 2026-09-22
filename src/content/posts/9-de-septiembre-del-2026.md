@@ -6,10 +6,12 @@ published: true
 description: "First Look at the Women’s Nike Zoom Vomero 5 “Black Pink Foam” 🩷🖤Nike is giving the Zoom Vomer"
 author: "The Ghetto Shoe's"
 image: "2026-09-09-first-look-at-the-womens-nike-zoom-vomero-5-black-pink-foam-nike-is-giving-the-zoom-vomer-1.jpg"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 First Look at the Women’s Nike Zoom Vomero 5 “Black Pink Foam” 🩷🖤Nike is giving the Zoom Vomer
 
+See images: Contenido del 9 de septiembre del 2026
 
 
 
@@ -24,3 +26,4 @@ First Look at the Women’s Nike Zoom Vomero 5 “Black Pink Foam” 🩷🖤Nik
 ![](/the-ghetto-shoes-blog/images/2026-09-09-first-look-at-the-womens-nike-zoom-vomero-5-black-pink-foam-nike-is-giving-the-zoom-vomer-5.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-09-09-first-look-at-the-womens-nike-zoom-vomero-5-black-pink-foam-nike-is-giving-the-zoom-vomer.jpg)
+Caption/text: 9 de septiembre del 2026

@@ -6,10 +6,12 @@ published: true
 description: "The Spider-Man x Air Jordan 1 High OG “Beyond the Spider-Verse” is expected to release in Summer"
 author: "The Ghetto Shoe's"
 image: "2026-09-04-the-spider-man-x-air-jordan-1-high-og-beyond-the-spider-verse-is-expected-to-release-in-summer-1.jpg"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 The Spider-Man x Air Jordan 1 High OG “Beyond the Spider-Verse” is expected to release in Summer
 
+See images: Contenido del 4 de septiembre del 2026
 
 
 
@@ -42,3 +44,4 @@ The Spider-Man x Air Jordan 1 High OG “Beyond the Spider-Verse” is expected 
 ![](/the-ghetto-shoes-blog/images/2026-09-04-the-spider-man-x-air-jordan-1-high-og-beyond-the-spider-verse-is-expected-to-release-in-summer-9.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-09-04-the-spider-man-x-air-jordan-1-high-og-beyond-the-spider-verse-is-expected-to-release-in-summer.jpg)
+Caption/text: 4 de septiembre del 2026

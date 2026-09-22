@@ -6,10 +6,12 @@ published: true
 description: "Novedades del mundo sneaker — 21 de mayo del 2026."
 author: "The Ghetto Shoe's"
 image: "2026-05-21-gemini_generated_image_6o5rkd6o5rkd6o5r.png"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 Novedades del mundo sneaker — 21 de mayo del 2026.
 
+See images: Contenido del 21 de mayo del 2026
 
 
 
@@ -24,3 +26,4 @@ Novedades del mundo sneaker — 21 de mayo del 2026.
 ![](/the-ghetto-shoes-blog/images/2026-05-21-sin-titulo-21-de-mayo-de-2026-a-las-14-33-54.png)
 
 ![](/the-ghetto-shoes-blog/images/2026-05-21-sin-titulo-21-de-mayo-de-2026-a-las-14-35-52.png)
+Caption/text: 21 de mayo del 2026

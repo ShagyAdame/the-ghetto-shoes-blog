@@ -6,10 +6,12 @@ published: true
 description: "First Look at Steph Curry’s first Li-Ning PE Sneaker Collection 😳Following his new long-term pa"
 author: "The Ghetto Shoe's"
 image: "2026-09-02-01.png"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 First Look at Steph Curry’s first Li-Ning PE Sneaker Collection 😳Following his new long-term pa
 
+See images: Contenido del 2 de septiembre del 2026
 
 
 
@@ -50,3 +52,4 @@ First Look at Steph Curry’s first Li-Ning PE Sneaker Collection 😳Following 
 ![](/the-ghetto-shoes-blog/images/2026-09-02-portada.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-09-02-portada.png)
+Caption/text: 2 de septiembre del 2026

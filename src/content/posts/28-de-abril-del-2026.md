@@ -6,10 +6,12 @@ published: true
 description: "Official images of the Nike Ja 3 “Bruce Lee” aka “Let Me Be Ja” 🐉This yellow and black colorway"
 author: "The Ghetto Shoe's"
 image: "2026-04-28-gemini_generated_image_esr0vsesr0vsesr0.png"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 Official images of the Nike Ja 3 “Bruce Lee” aka “Let Me Be Ja” 🐉This yellow and black colorway
 
+See images: Contenido del 28 de abril del 2026
 
 
 
@@ -28,3 +30,4 @@ Official images of the Nike Ja 3 “Bruce Lee” aka “Let Me Be Ja” 🐉This
 ![](/the-ghetto-shoes-blog/images/2026-04-28-official-images-of-the-nike-ja-3-bruce-lee-aka-let-me-be-ja-this-yellow-and-black-colorway-6.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-04-28-official-images-of-the-nike-ja-3-bruce-lee-aka-let-me-be-ja-this-yellow-and-black-colorway.jpg)
+Caption/text: 28 de abril del 2026

@@ -6,12 +6,14 @@ published: true
 description: "Alerta de sold out — los Crocs clásicos de Lilo & Stitch ya están acá. Estampado tropical, Jibbitz exclusivos y lanzamiento global el 26 de junio."
 author: "The Ghetto Shoe's"
 image: "chatgpt-image-14-jun-2026-06_01_17-pm.png"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 Alerta de sold out inmediato 🚨🌺. Acaban de revelar los Crocs clásicos de Lilo & Stitch y el estampado tropical está a otro nivel. Vienen con pines Jibbitz de locura y salen este 26 de junio a nivel mundial por $70 dólares. Literal, toda tu familia necesita un par. 🛸💙 Etiqueta en los comentarios a quien te los tiene que regalar.
 
 #Crocs #LiloYStitch #626Day #TendenciasTikTok
 
+See images: Contenido del 14 de Junio del 2026
 
 
 
@@ -23,3 +25,4 @@ Alerta de sold out inmediato 🚨🌺. Acaban de revelar los Crocs clásicos de 
 ![](/the-ghetto-shoes-blog/images/sin-titulo-14-de-junio-de-2026-a-las-174843.png)
 
 ![](/the-ghetto-shoes-blog/images/sin-titulo-14-de-junio-de-2026-a-las-175008.png)
+Caption/text: 14 de junio del 2026

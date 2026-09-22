@@ -6,10 +6,12 @@ published: true
 description: "Official images of the LeBron James x Nike Air Force 1 Low “White Marble” 🏛️Expected to release"
 author: "The Ghetto Shoe's"
 image: "2026-04-21-gemini_generated_image_d3o6mrd3o6mrd3o6.png"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 Official images of the LeBron James x Nike Air Force 1 Low “White Marble” 🏛️Expected to release
 
+See images: Contenido del 21 de abril del 2026
 
 
 
@@ -32,3 +34,4 @@ Official images of the LeBron James x Nike Air Force 1 Low “White Marble” �
 ![](/the-ghetto-shoes-blog/images/2026-04-21-official-images-of-the-lebron-james-x-nike-air-force-1-low-white-marble-expected-to-release-7.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-04-21-official-images-of-the-lebron-james-x-nike-air-force-1-low-white-marble-expected-to-release-8.jpg)
+Caption/text: 21 de abril del 2026

@@ -6,10 +6,12 @@ published: true
 description: "Official images of the adidas Anthony Edwards 3 Mules ☁️The new slip-on silhouette from Anthonyfgfd gfd"
 author: "The Ghetto Shoe's"
 image: "2026-06-10-1.png"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 Official images of the adidas Anthony Edwards 3 Mules ☁️The new slip-on silhouette from Anthonyfgfd gfd
 
+See images: Contenido del 10 de junio del 2026
 
 
 
@@ -36,3 +38,4 @@ Official images of the adidas Anthony Edwards 3 Mules ☁️The new slip-on silh
 ![](/the-ghetto-shoes-blog/images/2026-06-10-rfdsddffds.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-06-10-yhgdgdfghgghg.jpg)
+Caption/text: 10 de junio del 2026

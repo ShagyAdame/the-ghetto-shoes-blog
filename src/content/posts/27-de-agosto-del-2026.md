@@ -6,10 +6,12 @@ published: true
 description: "First Look at the Japan Exclusive Timberland x One Piece Boots Collection 👒Timberland and ONE P"
 author: "The Ghetto Shoe's"
 image: "2026-08-27-1.png"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 First Look at the Japan Exclusive Timberland x One Piece Boots Collection 👒Timberland and ONE P
 
+See images: Contenido del 27 de agosto del 2026
 
 
 
@@ -38,3 +40,4 @@ First Look at the Japan Exclusive Timberland x One Piece Boots Collection 👒Ti
 ![](/the-ghetto-shoes-blog/images/2026-08-27-portada.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-08-27-portada.png)
+Caption/text: 27 de agosto del 2026

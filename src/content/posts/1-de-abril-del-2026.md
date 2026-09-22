@@ -6,10 +6,12 @@ published: true
 description: "Unboxing the Air Jordan 5 OG “White Metallic” (2026) ❄️Expected to release on April 25th for $21"
 author: "The Ghetto Shoe's"
 image: "2026-04-01-gemini_generated_image_gqyj6gqyj6gqyj6g.png"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 Unboxing the Air Jordan 5 OG “White Metallic” (2026) ❄️Expected to release on April 25th for $21
 
+See images: Contenido del 1 de abril del 2026
 
 
 
@@ -32,3 +34,4 @@ Unboxing the Air Jordan 5 OG “White Metallic” (2026) ❄️Expected to relea
 ![](/the-ghetto-shoes-blog/images/2026-04-01-unboxing-the-air-jordan-5-og-white-metallic-2026-expected-to-release-on-april-25th-for-21-7.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-04-01-unboxing-the-air-jordan-5-og-white-metallic-2026-expected-to-release-on-april-25th-for-21.jpg)
+Caption/text: 1 de abril del 2026

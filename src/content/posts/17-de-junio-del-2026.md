@@ -6,6 +6,7 @@ published: true
 description: "😳 Dejó de ser el Director Creativo de Converse tras lanzar las icónicas SHAI 001 para dar el salto definitivo."
 author: "The Ghetto Shoe's"
 image: "gemini_generated_image_sgav4ksgav4ksgav.png"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 😳 Dejó de ser el Director Creativo de Converse tras lanzar las icónicas SHAI 001 para dar el salto definitivo.
@@ -16,6 +17,7 @@ Desliza para ver la confirmación. 👉 Un nuevo imperio comienza con el Swoosh.
 
 #shai #nikebasketball #noticiasdezapatillas #zapatillas
 
+See images: Contenido del 17 de junio del 2026
 
 
 
@@ -33,3 +35,4 @@ Desliza para ver la confirmación. 👉 Un nuevo imperio comienza con el Swoosh.
 ![](/the-ghetto-shoes-blog/images/5.png)
 
 ![](/the-ghetto-shoes-blog/images/6.png)
+Caption/text: 17 de junio del 2026

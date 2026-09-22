@@ -6,10 +6,12 @@ published: true
 description: "BAPE and Crocs have a new collection on the way 🔵🔴🟣The second drop of their Classic Clog coll"
 author: "The Ghetto Shoe's"
 image: "2026-04-29-bape-and-crocs-have-a-new-collection-on-the-way-the-second-drop-of-their-classic-clog-coll-1.jpg"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 BAPE and Crocs have a new collection on the way 🔵🔴🟣The second drop of their Classic Clog coll
 
+See images: Contenido del 29 de abril del 2026
 
 
 
@@ -30,3 +32,4 @@ BAPE and Crocs have a new collection on the way 🔵🔴🟣The second drop of t
 ![](/the-ghetto-shoes-blog/images/2026-04-29-bape-and-crocs-have-a-new-collection-on-the-way-the-second-drop-of-their-classic-clog-coll.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-04-29-gemini_generated_image_raf9qdraf9qdraf9.png)
+Caption/text: 29 de abril del 2026

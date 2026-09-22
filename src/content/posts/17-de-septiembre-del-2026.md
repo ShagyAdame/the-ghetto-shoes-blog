@@ -6,10 +6,12 @@ published: true
 description: "Detailed Look at the Nike SB Dunk Low “Light Chocolate” ☕️Nike SB is bringing a clean, earthy lo"
 author: "The Ghetto Shoe's"
 image: "2026-09-17-detailed-look-at-the-nike-sb-dunk-low-light-chocolate-nike-sb-is-bringing-a-clean-earthy-lo-1.jpg"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 Detailed Look at the Nike SB Dunk Low “Light Chocolate” ☕️Nike SB is bringing a clean, earthy lo
 
+See images: Contenido del 17 de septiembre del 2026
 
 
 
@@ -28,3 +30,4 @@ Detailed Look at the Nike SB Dunk Low “Light Chocolate” ☕️Nike SB is bri
 ![](/the-ghetto-shoes-blog/images/2026-09-17-detailed-look-at-the-nike-sb-dunk-low-light-chocolate-nike-sb-is-bringing-a-clean-earthy-lo-7.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-09-17-detailed-look-at-the-nike-sb-dunk-low-light-chocolate-nike-sb-is-bringing-a-clean-earthy-lo.jpg)
+Caption/text: 17 de septiembre del 2026

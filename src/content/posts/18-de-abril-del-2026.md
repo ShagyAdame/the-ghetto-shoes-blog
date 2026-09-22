@@ -6,10 +6,12 @@ published: true
 description: "The Travis Scott x Air Jordan 1 Low OG “Shy Pink” is dropping next month 🌸Expected to release o"
 author: "The Ghetto Shoe's"
 image: "2026-04-18-gemini_generated_image_4o0esq4o0esq4o0e.png"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 The Travis Scott x Air Jordan 1 Low OG “Shy Pink” is dropping next month 🌸Expected to release o
 
+See images: Contenido del 18 de abril del 2026
 
 
 
@@ -34,3 +36,4 @@ The Travis Scott x Air Jordan 1 Low OG “Shy Pink” is dropping next month �
 ![](/the-ghetto-shoes-blog/images/2026-04-18-the-travis-scott-x-air-jordan-1-low-og-shy-pink-is-dropping-next-month-expected-to-release-o-8.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-04-18-the-travis-scott-x-air-jordan-1-low-og-shy-pink-is-dropping-next-month-expected-to-release-o.jpg)
+Caption/text: 18 de abril del 2026

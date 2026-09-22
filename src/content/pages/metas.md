@@ -1,6 +1,6 @@
 ---
 title: "👟 Centro de Mando: Estrategia Viral y Monetización"
-date: "2026-06-15"
+date: "2026-09-20"
 aliases: ["Estrategia de Contenido", "Tracking Viral"]
 tags: ["estrategia", "instagram", "tiktok", "youtube", "sneakers", "afiliacion", "seo"]
 fecha: "{{date}}"
@@ -51,3 +51,5 @@ estado: "Planificación"
   
   Mi Proyecto
 - 
+
+ 

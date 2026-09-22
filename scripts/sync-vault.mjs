@@ -39,6 +39,8 @@ const STATIC_PAGES = [
   { name: 'metas', vaultFile: path.join(VAULT_PATH, 'Matriz de lo que se desea conseguir.md'), destFile: path.join(PAGES_DEST, 'metas.md') },
 ];
 
+const HUB_NOTE = 'Sistema Neuronal Central de The Ghetto Shoes';
+
 /**
  * Extracts the Astro base path from astro.config.mjs via regex.
  * Falls back to IMAGE_BASE env var, then empty string.
@@ -501,6 +503,8 @@ function processPosts(dryRun, imageMap) {
     // Process frontmatter
     const parsed = extractFrontmatter(content);
     let newContent;
+    let postBody;
+    let fm;
     let action;
 
     // Check for matching Contenido del note inside the content folder
@@ -511,29 +515,34 @@ function processPosts(dryRun, imageMap) {
       const defaults = generateFrontmatter(parsed.restContent, {
         filename: file, mtime: stats_f.mtime, slug,
       });
-      const fm = { ...defaults, ...parsed.frontmatter };
+      fm = { ...defaults, ...parsed.frontmatter };
       // Use first image from Contenido note as hero if post doesn't have its own
       if (contenido.body && !fm.image) {
         fm.image = contenido.firstImage;
       }
-      newContent = frontmatterToString(fm) + parsed.restContent;
+      // Connect the post to the Obsidian hub note via frontmatter (Astro ignores unknown fields)
+      if (!fm.hub) fm.hub = `[[${HUB_NOTE}]]`;
+      postBody = parsed.restContent;
       action = 'merged existing frontmatter';
     } else {
       // No frontmatter: inject from file analysis
-      const fm = generateFrontmatter(content, {
+      fm = generateFrontmatter(content, {
         filename: file, mtime: stats_f.mtime, slug,
       });
       // Use first image from Contenido note as hero if post doesn't have its own
       if (contenido.body && !fm.image) {
         fm.image = contenido.firstImage;
       }
-      newContent = frontmatterToString(fm) + content;
+      // Connect the post to the Obsidian hub note via frontmatter (Astro ignores unknown fields)
+      if (!fm.hub) fm.hub = `[[${HUB_NOTE}]]`;
+      postBody = content;
       action = 'injected new frontmatter';
     }
 
-    // Transform wiki syntax in the post body
-    newContent = transformWikiImages(newContent, imageMap);
-    newContent = transformWikiLinks(newContent);
+    // Transform wiki syntax in the post body only — frontmatter is kept intact
+    postBody = transformWikiImages(postBody, imageMap);
+    postBody = transformWikiLinks(postBody);
+    newContent = frontmatterToString(fm) + postBody;
 
     // Append the Contenido del note body right after the post text
     if (contenido.body) {

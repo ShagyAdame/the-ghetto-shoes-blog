@@ -6,10 +6,12 @@ published: true
 description: "Novedades del mundo sneaker — 20 de mayo del 2026."
 author: "The Ghetto Shoe's"
 image: "2026-05-20-sin-titulo-20-de-mayo-de-2026-a-las-19-33-08.png"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 Novedades del mundo sneaker — 20 de mayo del 2026.
 
+See images: Contenido del 20 de mayo del 2026
 
 
 
@@ -24,3 +26,4 @@ Novedades del mundo sneaker — 20 de mayo del 2026.
 ![](/the-ghetto-shoes-blog/images/2026-05-20-sin-titulo-20-de-mayo-de-2026-a-las-19-36-50.png)
 
 ![](/the-ghetto-shoes-blog/images/2026-05-20-sin-titulo-20-de-mayo-de-2026-a-las-19-37-44.png)
+Caption/text: 20 de mayo del 2026

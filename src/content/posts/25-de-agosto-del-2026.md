@@ -6,10 +6,12 @@ published: true
 description: "Official images of the Air Jordan 7 “Tennis Day” 🎾Jordan Brand is bringing a tennis-inspired tw"
 author: "The Ghetto Shoe's"
 image: "2026-08-25-1.png"
+hub: "[[Sistema Neuronal Central de The Ghetto Shoes]]"
 ---
 
 Official images of the Air Jordan 7 “Tennis Day” 🎾Jordan Brand is bringing a tennis-inspired tw
 
+See images: Contenido del 25 de agosto del 2026
 
 
 
@@ -42,3 +44,4 @@ Official images of the Air Jordan 7 “Tennis Day” 🎾Jordan Brand is bringin
 ![](/the-ghetto-shoes-blog/images/2026-08-25-official-images-of-the-air-jordan-7-tennis-day-jordan-brand-is-bringing-a-tennis-inspired-tw.jpg)
 
 ![](/the-ghetto-shoes-blog/images/2026-08-25-portada.png)
+Caption/text: 25 de agosto del 2026
